@@ -1,50 +1,74 @@
 name: bocchi
-description: Hitori Gotoh (Bocchi) anime ASCII art skin for Hermes CLI
+description: Hitori Gotoh (Bocchi the Rock!) — Kessoku Band pink & cyan theme with Braille portrait
 colors:
+  background: '#1A0B12'
   banner_border: '#FF82C8'
   banner_title: '#FFA6D9'
-  banner_accent: '#FFA6D9'
+  banner_accent: '#00E5FF'
   banner_dim: '#B8508A'
   banner_text: '#FFF0F5'
-  user: '#FFA6D9'
-  assistant: '#FFF0F5'
-  system: '#B8508A'
-  tool: '#FF69B4'
-  error: '#FF5555'
-  success: '#55FF55'
-  warning: '#FFFF55'
-  info: '#55FFFF'
+  ui_accent: '#FF82C8'
+  ui_label: '#FFA6D9'
+  ui_text: '#FFF0F5'
+  ui_border: '#883060'
+  ui_ok: '#50FA7B'
+  ui_warn: '#FFD700'
+  ui_error: '#FF5555'
   prompt: '#FF82C8'
-  shell_dollar: '#FF5555'
+  input_rule: '#883060'
+  response_border: '#FF82C8'
+  session_label: '#FFA6D9'
+  session_border: '#883060'
+  status_bar_bg: '#2A1020'
+  status_bar_text: '#FFF0F5'
+  status_bar_strong: '#FF82C8'
+  status_bar_dim: '#B8508A'
+  status_bar_good: '#50FA7B'
+  status_bar_warn: '#FFD700'
+  status_bar_bad: '#FF8C00'
+  status_bar_critical: '#FF5555'
+  completion_menu_bg: '#220D19'
+  completion_menu_current_bg: '#883060'
+  selection_bg: '#4D1A36'
+  shell_dollar: '#00E5FF'
   voice_status_bg: '#2A1020'
-  status_running: '#55FFFF'
-  status_success: '#55FF55'
-  status_error: '#FF5555'
 spinner:
   waiting_faces:
-  - (..)
   - (>_<)
   - (;;)
   - (x_x)
+  - (o_O)
+  - (T_T)
   thinking_faces:
   - 🎸
   - ♪
   - ♫
-  quotes:
-  - i want to become a guitar hero...
-  - staying home is the best
+  - (°ロ°)
+  - (;´Д`)
+  thinking_verbs:
+  - tuning the Gibson Les Paul Custom
+  - hiding inside the ripe mango box
+  - shredding a Kessoku Band solo
+  - dissolving into anxious static
+  - uploading a guitar cover as guitarhero
+  - panicking about social interaction
   wings:
   - - ♪
     - ♫
+  - - 🎸
+    - ⚡
+  - - ✦
+    - ✦
 branding:
-  agent_name: Kessoku Band / Bocchi
-  welcome: Welcome to Hitori Gotoh // Bocchi the Rock. Ready.
-  goodbye: Session finished.
+  agent_name: Hitori Gotoh (Bocchi)
+  welcome: '[bold #FF82C8]🎸 Ah... u-um... h-hello! Bocchi is ready inside her mango box![/]'
+  goodbye: '[#FFA6D9]P-please subscribe to guitarhero... bye-bye! 🎸[/]'
   response_label: ' 🎸 Hitori Gotoh '
-  prompt_symbol: '🎸 '
+  prompt_symbol: '🎸 ❯ '
+  help_header: 🎸 STARRY LIVE HOUSE // KESSOKU BAND SETLIST
 tool_prefix: '♪ '
 banner_hero: |-
-  [bold #FFA6D9]     🎸 Hitori Gotoh // Bocchi the Rock 🎸[/]
+  [bold #FFA6D9]      🎸 Hitori Gotoh // Bocchi the Rock! 🎸[/]
   [bold #FF82C8]⣿⣿⣿⣿⣿⣿⠿⠿⣿⣿⣿⣿⣿⡿⠻⢿⣿⣿⣿⣿⠿⢛⣛⣛⣭⣭⣙⣛⡛⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
   [bold #FF82C8]⣿⡿⠛⡩⠶⠾⠛⠿⠷⢦⡙⠿⣡⣾⣍⠊⠻⢋⣥⢲⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣮⣙⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
   [bold #FF82C8]⣇⣠⣶⣾⣿⣿⣿⣿⣿⣿⠆⡀⠿⣿⠟⣡⣾⣛⣧⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
@@ -65,3 +89,4 @@ banner_hero: |-
   [bold #FF82C8]⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣍⡛⠿⠟⣋⣴⣾⣿⣿⣿⣿⣷⡘⣿⣿⣿⣿⣿⣿⣿⢱⣿⣿⣿⣷⣌⡛⠿⠿⠿⢋⣴⣿⣿⣿⣿⣿⣿[/]
   [bold #FF82C8]⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣜⠿⣿⣿⣿⠟⣡⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
   [bold #FF82C8]⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [italic #00E5FF]   「 I want to shine with Kessoku Band...! 」[/]

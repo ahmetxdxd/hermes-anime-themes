@@ -1,72 +1,90 @@
 name: kurumi
-description: Kurumi Tokisaki anime ASCII art skin for Hermes CLI
+description: Kurumi Tokisaki (Date A Live) — Gothic crimson nightmare & Zafkiel golden clockwork theme
 colors:
-  banner_border: '#8B0000'
-  banner_title: '#FF2A2A'
-  banner_accent: '#FF4D4D'
-  banner_dim: '#B22222'
-  banner_text: '#FFCCCC'
-  ui_accent: '#FF2A2A'
-  ui_label: '#FF4D4D'
-  ui_ok: '#90EE90'
-  ui_error: '#FF0000'
-  ui_warn: '#FFA500'
-  prompt: '#FF2A2A'
-  input_rule: '#550000'
-  response_border: '#8B0000'
-  session_label: '#FF4D4D'
-  session_border: '#550000'
-  status_bar_bg: '#1A0000'
-  voice_status_bg: '#1A0000'
-  selection_bg: '#330000'
-  completion_menu_bg: '#1A0000'
+  background: '#120509'
+  banner_border: '#B80F28'
+  banner_title: '#FF2A4B'
+  banner_accent: '#F4C430'
+  banner_dim: '#6B1D2F'
+  banner_text: '#FCECEF'
+  ui_accent: '#FF2A4B'
+  ui_label: '#F4C430'
+  ui_text: '#FCECEF'
+  ui_border: '#800F24'
+  ui_ok: '#5CD68D'
+  ui_warn: '#F4C430'
+  ui_error: '#FF0033'
+  prompt: '#F4C430'
+  input_rule: '#800F24'
+  response_border: '#B80F28'
+  session_label: '#F4C430'
+  session_border: '#6B1D2F'
+  status_bar_bg: '#1F080E'
+  status_bar_text: '#FCECEF'
+  status_bar_strong: '#F4C430'
+  status_bar_dim: '#800F24'
+  status_bar_good: '#5CD68D'
+  status_bar_warn: '#F4C430'
+  status_bar_bad: '#E67E22'
+  status_bar_critical: '#FF0033'
+  completion_menu_bg: '#1A060B'
+  completion_menu_current_bg: '#800F24'
+  selection_bg: '#470A16'
+  shell_dollar: '#F4C430'
+  voice_status_bg: '#1F080E'
 spinner:
   waiting_faces:
-  - (◕‿◕)
-  - (¬‿¬)
-  - (◔_◔)
+  - (◔_◕)
+  - (ufufu~)
+  - ( 🕰️_◕ )
+  - ( ara ara~ )
   thinking_faces:
-  - (◉_◉)
-  - (◍_◍)
-  - (◉‿◉)
+  - 🕰️
+  - 🔫
+  - 🥀
+  - ⏳
   thinking_verbs:
-  - rewinding time
-  - consuming shadows
-  - counting seconds
+  - summoning Astral Dress Elohim
+  - 'loading Zafkiel — First Bullet: Aleph'
+  - 'rewinding time with Fourth Bullet: Dalet'
+  - 'peering into the past via Tenth Bullet: Yud'
+  - calling temporal clones from the shadows
+  - giggling Ara ara~ while aiming flintlock & musket
   wings:
-  - - ⧖
-    - ⧖
+  - - 🕰️
+    - 🥀
+  - - ⏳
+    - ⏳
+  - - ❖
+    - ❖
 branding:
-  agent_name: Kurumi Agent
-  welcome: Welcome to Kurumi Tokisaki // Date A Live. Ready.
-  goodbye: Session finished.
-  response_label: ' ◈ Kurumi '
-  prompt_symbol: ⧖
-  help_header: ◈ KURUMI COMMANDS
-tool_prefix: ⧖
+  agent_name: Kurumi Tokisaki (Nightmare)
+  welcome: '[bold #FF2A4B]🕰️ Ara ara~ Come forth, Zafkiel! Shall we devour some time together?[/]'
+  goodbye: '[#F4C430]Ufufu~ Until our clock hands cross once more... 🥀[/]'
+  response_label: ' 🕰️ Kurumi // Zafkiel '
+  prompt_symbol: '🕰️ ❯ '
+  help_header: 🕰️ EMPEROR OF TIME ZAFKIEL // TWELVE BULLETS
+tool_prefix: '🥀 '
 banner_hero: |-
-  [bold #FF4D4D]      ◈ Kurumi Tokisaki // Date A Live ◈[/]
-  [#FF2A2A]              ▄▄▄▄██████▄▄▄▄[/]
-  [#FF2A2A]          ▄████████████████████▄[/]
-  [#FF2A2A]       ▄██████████████████████████▄[/]
-  [#FF2A2A]     ▄██████████████████████████████▄[/]
-  [#FF2A2A]    ██████████████████████████████████[/]
-  [#FF2A2A]   ████████████████████████████████████[/]
-  [#FF2A2A]  ██████████████[#FFD700]████[/#]██████████████████[/]
-  [#FF2A2A]  ████████████[#FFD700]████████[/#]████████████████[/]
-  [#FF2A2A]  ████████████[#FFD700]████████[/#]████████████████[/]
-  [#FF2A2A]  ██████████████[#FFD700]████[/#]██████████████████[/]
-  [#FF2A2A]   ████████████████████████████████████[/]
-  [#FF2A2A]    ██████████████████████████████████[/]
-  [#FF2A2A]     ▀██████████████████████████████▀[/]
-  [#FF2A2A]       ▀██████████████████████████▀[/]
-  [#FF2A2A]          ▀████████████████████▀[/]
-  [#FF2A2A]              ▀▀▀▀██████▀▀▀▀[/]
-  [#FF2A2A]                   ████[/]
-  [#FF2A2A]                ▄▄██████▄▄[/]
-  [#FF2A2A]             ▄██████████████▄[/]
-  [#FF2A2A]           ▄██████████████████▄[/]
-  [#FF2A2A]          ██████████████████████[/]
-  [#FF2A2A]         ████████████████████████[/]
-  [#FF2A2A]        ██████████████████████████[/]
-  [bold #FFD700]        ⏰ Zafkiel: Emperor of Time[/]
+  [bold #F4C430]        🕰️ Kurumi Tokisaki // Date A Live 🕰️[/]
+  [bold #FF2A4B]⠀⠠⣿⣥⣶⣻⡿⠋⠀⣴⠏⠀⠀⢠⣿⠤⢀⢀⣼⣯⣾⡿⣿⣿⣿⣾⣷⣿⣿⣿⣿⣿⡿⣿⣿⢋⣿⣿⣿⣷⣿⡀⠀⠈⢧⡀⠀⠀⠀⢢[/]
+  [bold #FF2A4B]⠀⠀⠉⢳⣾⡛⠒⣠⣶⣿⣦⣠⣤⣾⣯⣤⣾⣾⣿⣿⡟⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣿⣿⣿⣿⣿⣿⣿⣄⠀⠈⠻⣦⣴⣤⠉[/]
+  [bold #FF2A4B]⠀⠀⣴⣫⣴⣿⢛⣿⣿⣿⣿⠏⢩⣿⣿⣿⣿⣿⣿⡟⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿⣿⣿⣶⣦⠀⠈⠙⣷[/]
+  [bold #FF2A4B]⠀⠚⠻⠋⣿⢣⠞⠿⣿⣿⡏⢠⣾⣿⣿⣿⣿⣿⣿⣀⣼⣿⣿⣿⣿⣿⣿⣿⣿⢹⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣼[/]
+  [bold #FF2A4B]⠀⠀⠀⣸⣿⡟⠀⠀⠀⠙⢿⣼⣿⣿⣿⣿⡿⠹⡟⠋⣿⣿⣿⣿⣿⣿⢉⣿⢧⣾⣿⣿⣿⣿⣿⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF2A4B]⠀⠀⠀⠉⠛⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⡇⠀⠃⢈⣿⣿⣿⣿⣿⣧⣼⡏⠀⣿⣿⣿⣿⣿⡇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF2A4B]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⡇⠀⠀⠺⢯⣉⣿⡿⠟⢻⣿⠀⠀⣿⣿⡟⣿⣿⡗⠾⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF2A4B]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠈⠉⠁⠀⠘⠃⠀⠀⠈⠉⠁⠙⢛⣧⠀⣷⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF2A4B]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣧⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⡽⠿⣿⠿⢶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF2A4B]⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣰⣷⡀⢤⣄⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF2A4B]⠀⠀⠀⠀⠀⢰⡇⠀⢀⣾⣿⣿⣿⣿⣿⢻⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠿⣷⣮⠛⠁⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF2A4B]⣤⡀⠀⢀⣠⣟⠀⠀⡼⣿⣿⣿⣿⣿⣿⠀⢳⠀⠀⠀⠐⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠈⢉⡴⣿⣿⣿⣿⣿⣿⣿⡟⢻[/]
+  [bold #FF2A4B]⣿⣿⣴⣿⣿⣿⡆⠀⢱⣿⢹⡇⢿⣿⣿⠀⠀⢣⠀⠀⠀⠈⢻⡷⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⢋⣥⣿⣿⣿⣿⣿⣿⣿⣧⣋[/]
+  [bold #FF2A4B]⣿⣿⣿⣿⣿⣿⣧⡀⣸⡇⠈⣧⠸⣿⣿⣆⠀⠀⠣⡀⠀⠀⠀⠈⠚⠛⠛⠂⠀⠀⠀⠀⠀⠀⠀⣀⢴⣯⡺⠥⣾⣿⣿⣿⣿⣿⣿⣿⣿⣏[/]
+  [bold #FF2A4B]⣿⣿⣿⣿⣿⣿⣿⣿⣿⡃⠀⠘⠀⢻⣿⡏⠱⣄⠀⠙⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⡠⠴⠊⠁⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⢿⠛⢿[/]
+  [bold #FF2A4B]⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣤⣌⣿⣿⡀⠈⠑⢄⠀⠉⠉⠉⠉⠉⠉⣉⣉⣉⣤⣴⣶⣿⣿⣿⣿⣿⣧⣼⣿⡿⠿⠿⣿⣿⡏⠸⣀⣴[/]
+  [bold #FF2A4B]⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣤⣧⣤⣴⣶⣶⣿⣿⣿⣿⣿⣿⣿⡿⠋⠁⠀⣸⠏⠀⠀⠀⠀⠀⡀⠈⠛⢅⣸⣿⣿[/]
+  [bold #FF2A4B]⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠟⢋⡟⠋⠁⠀⠀⠀⠠⡀⠀⠑⢄⠀⠀⠉⠻⡟[/]
+  [bold #FF2A4B]⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣄⣼⠀⠀⠀⠑⢢⠀⠀⠈⠲⡄⠀⠙⢦⠀⠀⢳[/]
+  [bold #FF2A4B]⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣁⣤⣭⣿⣾⣿⣿⣿⣿⣶⣼⣄⠀⠀⢣⡀⠀[/]
+  [italic #F4C430]      「 Ara ara~ Come forth, Zafkiel (Emperor of Time)! 」[/]

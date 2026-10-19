@@ -1,72 +1,90 @@
 name: 2b
-description: YoRHa No.2 Type B anime ASCII art skin for Hermes CLI
+description: YoRHa No.2 Type B (NieR:Automata) — Bunker monochrome silver, tactical beige & crimson theme
 colors:
-  banner_border: '#FFFFFF'
-  banner_title: '#E0E0E0'
-  banner_accent: '#C0C0C0'
-  banner_dim: '#666666'
-  banner_text: '#D8D8D8'
-  user: '#FFFFFF'
-  assistant: '#E8E8E8'
-  system: '#888888'
-  tool: '#A0A0A0'
-  error: '#FF5555'
-  success: '#55FF55'
-  warning: '#FFFF55'
-  info: '#55FFFF'
+  background: '#121214'
+  banner_border: '#DAD4BB'
+  banner_title: '#FFFFFF'
+  banner_accent: '#C83232'
+  banner_dim: '#6E6A5F'
+  banner_text: '#E6E2D3'
+  ui_accent: '#DAD4BB'
+  ui_label: '#FFFFFF'
+  ui_text: '#E6E2D3'
+  ui_border: '#57544A'
+  ui_ok: '#8CD98C'
+  ui_warn: '#E6C86E'
+  ui_error: '#C83232'
   prompt: '#FFFFFF'
-  shell_dollar: '#FF5555'
-  voice_status_bg: '#1A1A1A'
-  status_running: '#55FFFF'
-  status_success: '#55FF55'
-  status_error: '#FF5555'
+  input_rule: '#57544A'
+  response_border: '#DAD4BB'
+  session_label: '#DAD4BB'
+  session_border: '#57544A'
+  status_bar_bg: '#1E1D1A'
+  status_bar_text: '#DAD4BB'
+  status_bar_strong: '#FFFFFF'
+  status_bar_dim: '#6E6A5F'
+  status_bar_good: '#8CD98C'
+  status_bar_warn: '#E6C86E'
+  status_bar_bad: '#D97736'
+  status_bar_critical: '#C83232'
+  completion_menu_bg: '#1A1917'
+  completion_menu_current_bg: '#57544A'
+  selection_bg: '#38362F'
+  shell_dollar: '#C83232'
+  voice_status_bg: '#1E1D1A'
 spinner:
   waiting_faces:
-  - ◈
-  - ◇
-  - ◆
-  - ❖
+  - '[2B]'
+  - '[Pod 042]'
+  - '[YoRHa]'
+  - '[9S_LINK]'
   thinking_faces:
-  - ⚔
-  - 🗡
-  - ✦
-  quotes:
-  - everything that lives is designed to end
-  - for the glory of mankind
+  - ⚔️
+  - '[SCANNING]'
+  - '[POD_042]'
+  - '[BLACK_BOX]'
+  thinking_verbs:
+  - consulting Pod 042 tactical analysis
+  - synchronizing with the Bunker
+  - charging Virtuous Contract
+  - scanning machine lifeform signals
+  - suppressing prohibited emotions
+  - verifying Black Box resonance
   wings:
-  - - ◇
-    - ◇
+  - - ⚔
+    - ⚔
+  - - ⟦
+    - ⟧
+  - - ◈
+    - ◈
 branding:
   agent_name: YoRHa No.2 Type B
-  welcome: Welcome to YoRHa No.2 Type B // NieR:Automata. Ready.
-  goodbye: Session finished.
-  response_label: ' ◈ YoRHa 2B '
-  prompt_symbol: '◈ '
-tool_prefix: '⚔ '
+  welcome: '[bold #FFFFFF]⚔️ YoRHa Unit 2B online. Pod 042 tactical link established. Glory to Mankind.[/]'
+  goodbye: '[#DAD4BB]Black Box signal terminated. Glory to Mankind.[/]'
+  response_label: ' ⚔️ YoRHa 2B '
+  prompt_symbol: '⚔️ ❯ '
+  help_header: ⚔️ BUNKER COMMAND // POD 042 TACTICAL MANUAL
+tool_prefix: '◈ '
 banner_hero: |-
-  [bold #E0E0E0]       ◈ YoRHa No.2 Type B ◈[/]
-  [bold #FFFFFF]           ▄██████████████▄[/]
-  [bold #FFFFFF]        ▄████████████████████▄[/]
-  [bold #FFFFFF]      ▄████████████████████████▄[/]
-  [bold #FFFFFF]     ████████████████████████████[/]
-  [bold #FFFFFF]    ██████████████████████████████[/]
-  [bold #FFFFFF]   ████████████████████████████████[/]
-  [bold #FFFFFF]   ████████████████████████████████[/]
-  [bold #FFFFFF]  ██████████████████████████████████[/]
-  [bold #FFFFFF]  ██████████████████████████████████[/]
-  [bold #FFFFFF]  █████████[#000000]██████████████[/#]█████████[/]
-  [bold #FFFFFF]  ████████[#000000]████████████████[/#]████████[/]
-  [bold #FFFFFF]  ███████[#000000]██████████████████[/#]███████[/]
-  [bold #FFFFFF]   ███████[#000000]████████████████[/#]███████[/]
-  [bold #FFFFFF]   ████████[#000000]██████████████[/#]████████[/]
-  [bold #FFFFFF]    ██████████████████████████████[/]
-  [bold #FFFFFF]     ████████████████████████████[/]
-  [bold #FFFFFF]      ▀████████████████████████▀[/]
-  [bold #FFFFFF]        ▀████████████████████▀[/]
-  [bold #FFFFFF]           ▀██████████████▀[/]
-  [bold #FFFFFF]                 ████[/]
-  [bold #FFFFFF]               ▄██████▄[/]
-  [bold #FFFFFF]            ██████████████[/]
-  [bold #FFFFFF]          ██████████████████[/]
-  [bold #FFFFFF]        ██████████████████████[/]
-  [bold #666666]       For The Glory of Mankind[/]
+  [bold #FFFFFF]       ⚔️ YoRHa No.2 Type B // NieR:Automata ⚔️[/]
+  [bold #DAD4BB]⣿⣿⣿⠏⠀⢀⢮⣿⣿⣿⣿⣿⣿⣇⣯⣿⣿⢗⣾⣿⣿⣿⣿⣟⣾⣿⡟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣶⣿⡽⡻⣿[/]
+  [bold #DAD4BB]⣿⣿⣿⠀⠀⣼⣾⣿⣿⣿⣿⡝⡾⣼⣿⣿⣟⣾⣻⣿⣿⣿⢿⣾⣿⣿⢀⣿⣿⣿⢛⣿⣱⠹⣩⣟⢟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⢿[/]
+  [bold #DAD4BB]⣿⣏⡟⠠⣴⣷⣿⣿⢿⣿⣷⢹⣻⣿⣿⣿⣿⢳⣿⢿⣿⣿⣿⢿⡿⣣⣮⢾⣿⣹⣿⣴⣯⢙⣹⣿⡟⢱⣽⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣆[/]
+  [bold #DAD4BB]⣿⣎⡇⢰⡟⣾⣿⣻⣿⣿⣿⣿⣿⣿⣿⣿⡟⣾⢿⣿⢿⣾⣿⣟⣽⣿⣿⣸⣿⡿⣿⣿⣿⡶⣻⣿⣶⣦⣧⣷⣿⠍⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #DAD4BB]⡇⡞⡇⣾⣼⣿⢯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⢷⡿⣳⡿⣛⣿⣿⣿⣿⣿⡏⣿⣷⣻⣿⣿⣿⡵⢿⣿⣿⣿⣿⣿⣿⣾⡜⢿⣿⣿⣿⣿⣿[/]
+  [bold #DAD4BB]⡙⣷⢧⣿⣿⣯⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⢹⣫⣞⢋⣶⣷⣶⣾⣭⣷⣿⡹⣛⢿⣟⣿⣿⣿⡾⣫⣿⣿⣿⣿⣻⣿⣿⣿⣿⣯⣿⣿⣿⣿[/]
+  [bold #DAD4BB]⣧⣿⣸⢇⡿⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⡪⠱⢵⡿⢿⣿⣿⣿⣿⢿⣿⣿⣹⣶⣿⣾⣿⣿⣷⣿⢯⢿⣿⡏⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #DAD4BB]⠹⣿⣤⡟⣧⣽⣿⣿⣿⣿⣿⣿⣿⣿⣯⡁⠀⠁⡀⠀⣀⠀⠉⠉⠛⡷⣦⠹⣧⠯⣿⣿⣿⣿⣿⣿⣷⢯⣿⣹⡤⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #DAD4BB]⡤⡟⣼⡹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⡄⠘⠇⢿⣄⣈⡅⢲⣄⢩⣿⣿⣿⡷⢻⣿⣿⣿⣿⣿⣿⣎⢞⣴⣔⢯⣻⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #DAD4BB]⣧⣿⡙⡿⡗⣿⣿⣿⣿⣿⣿⣿⣿⣿⢏⣧⣿⣷⣦⣦⣾⣯⣴⣽⣿⣶⣿⣿⣿⣷⡭⣻⡾⣿⣿⣿⣿⣿⠬⢾⣿⢺⣿⡆⣿⣿⣿⣿⣿⣿[/]
+  [bold #DAD4BB]⡽⢾⣼⡷⣽⣜⣯⣻⣿⣿⣿⣿⣿⣿⣏⢿⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⡱⣹⣽⣿⠟⢉⠃⠉⠉⠓⡙⣿⣷⣿⢹⣿⣿⢳⣻[/]
+  [bold #DAD4BB]⢸⢣⣸⣇⣽⣷⣼⣿⣿⣿⣿⣿⣯⣿⣿⡎⣎⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣯⣿⣄⢎⢳⡢⣠⢜⡨⣦⡀⠀⢻⡿⣇⡾⣾⣟⡿⣿[/]
+  [bold #DAD4BB]⡪⡞⠛⣿⡜⣿⣿⣿⣿⣿⣿⣿⢿⣹⣿⣧⢮⡫⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡞⡽⣿⣶⢠⠚⠟⢃⠄⢸⣳⣍⣼⡿⡾⣽⢫[/]
+  [bold #DAD4BB]⣧⢝⡧⣿⣷⣝⣿⣿⣿⣿⣿⣿⡾⣷⢿⣿⣻⣿⣶⣽⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⣫⣾⣜⣿⢻⣿⣷⡏⣼⠸⣡⣾⢟⣺⣿⡟⣷[/]
+  [bold #DAD4BB]⣺⣥⡧⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⡝⣷⣽⣿⣿⣿⣿⣿⠿⣿⡿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢻⣼⣿⣿⢻⣡⣿⢟⣵⣿⣿⢟⡼⡿[/]
+  [bold #DAD4BB]⡝⣿⡏⠟⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⣎⡳⣽⣿⣿⣿⣿⣷⣍⡉⡉⠛⠺⠿⣟⢿⣿⣿⣿⣿⡏⣿⣭⢡⣯⣵⣫⣽⣿⣿⢫⠿⣜⣾[/]
+  [bold #DAD4BB]⡮⣎⡟⢹⣹⣿⣿⣿⣻⣿⣻⣿⣿⣿⡿⣿⢿⣿⣾⣌⣽⣟⣿⣿⣿⣿⣶⣽⣤⣤⣤⣴⣿⣿⣿⣿⣽⣿⢫⡟⣹⣷⢖⣼⡟⣣⣭⢾⣽⣶[/]
+  [bold #DAD4BB]⢮⣍⣿⣙⡼⡏⣿⣿⡷⣿⡝⣽⣿⣿⣿⢽⣜⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣣⣿⠿⠻⣕⣿⣷⣇⠮⢯⣼⣿⢯[/]
+  [bold #DAD4BB]⣧⣿⡼⣵⣾⠩⢼⣿⣿⡾⣿⣙⣿⡿⣿⣯⡞⣷⣌⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣟⣭⣾⣿⣿⣿⣿⣿⣿⢯⢚⡧⡣⣟⣿⡿[/]
+  [bold #DAD4BB]⡻⣾⣝⣑⠽⣿⣎⢷⣹⢿⣮⡳⡎⡻⣝⣿⣷⣸⣟⡷⡄⠙⠻⣿⣿⣿⣿⣿⣿⣿⠿⣻⣽⣾⣿⣿⣿⣿⣳⣿⣿⡟⣵⣿⢸⣿⣷⣸⢋⣮[/]
+  [italic #C83232]     「 Emotions are prohibited. Glory to Mankind. 」[/]

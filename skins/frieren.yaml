@@ -1,65 +1,90 @@
 name: frieren
-description: Frieren anime ASCII art skin for Hermes CLI
+description: Frieren the Slayer (Sousou no Frieren) — Elven silver, mana cyan & golden grimoire theme
 colors:
-  banner_border: '#4A90E2'
-  banner_title: '#6BA4E8'
-  banner_accent: '#A4C8F0'
-  banner_dim: '#2A5288'
-  banner_text: '#E8F1FC'
-  ui_accent: '#6BA4E8'
-  ui_label: '#A4C8F0'
-  ui_ok: '#7CD8A4'
-  ui_error: '#E25555'
-  ui_warn: '#F0C060'
-  prompt: '#4A90E2'
-  input_rule: '#1C3860'
-  response_border: '#2A5288'
-  session_label: '#A4C8F0'
-  session_border: '#1C3860'
-  status_bar_bg: '#0A1424'
-  voice_status_bg: '#0A1424'
-  selection_bg: '#14243C'
-  completion_menu_bg: '#0A1424'
+  background: '#0C131F'
+  banner_border: '#88CCFF'
+  banner_title: '#F0F8FF'
+  banner_accent: '#FFD700'
+  banner_dim: '#4A6984'
+  banner_text: '#E6F2FF'
+  ui_accent: '#88CCFF'
+  ui_label: '#FFD700'
+  ui_text: '#E6F2FF'
+  ui_border: '#36536E'
+  ui_ok: '#7CE38B'
+  ui_warn: '#FFD700'
+  ui_error: '#FF6B6B'
+  prompt: '#88CCFF'
+  input_rule: '#36536E'
+  response_border: '#88CCFF'
+  session_label: '#FFD700'
+  session_border: '#36536E'
+  status_bar_bg: '#131F33'
+  status_bar_text: '#E6F2FF'
+  status_bar_strong: '#FFD700'
+  status_bar_dim: '#5A7D9A'
+  status_bar_good: '#7CE38B'
+  status_bar_warn: '#FFD700'
+  status_bar_bad: '#FFA94D'
+  status_bar_critical: '#FF6B6B'
+  completion_menu_bg: '#101A2B'
+  completion_menu_current_bg: '#36536E'
+  selection_bg: '#243B55'
+  shell_dollar: '#FFD700'
+  voice_status_bg: '#131F33'
 spinner:
   waiting_faces:
-  - (◕‿◕)
-  - (¬‿¬)
-  - (◔_◔)
+  - (=w=)
+  - (-_-) zzz
+  - (・ω・)
+  - (:3 )
   thinking_faces:
-  - (◉_◉)
-  - (◍_◍)
-  - (◉‿◉)
+  - 🪄
+  - 📖
+  - ✨
+  - ( =ω= )
   thinking_verbs:
-  - casting spell
-  - collecting grimoires
-  - remembering the journey
+  - deciphering an ancient folk grimoire
+  - suppressing mana for a thousand years
+  - casting Zoltraak (Ordinary Offensive Magic)
+  - getting stuck inside a 99% mimic chest
+  - conjuring a field of blue-moon weed flowers
+  - sleeping in until noon like usual
   wings:
-  - - ✧
-    - ✧
+  - - ✨
+    - ✨
+  - - 🪄
+    - 📖
+  - - ༺
+    - ༻
 branding:
-  agent_name: BEYOND JOURNEY / FRIEREN
-  welcome: Welcome to Frieren // Sousou no Frieren. Ready.
-  goodbye: Session finished.
-  response_label: ' ✧ Frieren '
-  prompt_symbol: ✧
-  help_header: ◈ FRIEREN COMMANDS
-tool_prefix: ✧
+  agent_name: Frieren (Mage of the Hero Party)
+  welcome: '[bold #88CCFF]🪄 It is a mere ten-year journey... Let us inspect some grimoires. (=w=)[/]'
+  goodbye: '[#FFD700]See you again in fifty years... Kurai yo, kowai yo! 📖[/]'
+  response_label: ' 🪄 Frieren '
+  prompt_symbol: '🪄 ❯ '
+  help_header: 📖 CONTINENTAL MAGIC ASSOCIATION // GRIMOIRE INDEX
+tool_prefix: '✨ '
 banner_hero: |-
-  [bold #6BA4E8]         ◈ Frieren // Sousou no Frieren ◈[/]
-  [#4A90E2]                 ▄██████▄[/]
-  [#4A90E2]              ▄████████████▄[/]
-  [#4A90E2]            ▄████████████████▄[/]
-  [#4A90E2]       ▄▄  ████████████████████  ▄▄[/]
-  [#4A90E2]      ▀█████████[#E8F1FC]▀▀▀██▀▀▀[/#]█████████▀[/]
-  [#4A90E2]        ▀█████[#E8F1FC]   ( •)  (• )  [/#]█████▀[/]
-  [#4A90E2]          ████[#E8F1FC]       ▿       [/#]████[/]
-  [#4A90E2]           ████[#E8F1FC]    ▀▄▄▀    [/#]████[/]
-  [#4A90E2]         ▄██████[#F0C060]▄▄████▄▄[/#]██████▄[/]
-  [#4A90E2]        ███████[#FFFFFF]██████████[/#]███████[#F0C060]█[/#][/]
-  [#4A90E2]       ████████[#FFFFFF]██████████[/#]████████[#F0C060]█[/#][/]
-  [#4A90E2]       ████████[#FFFFFF]██████████[/#]████████[#F0C060]█[/#][/]
-  [#4A90E2]        ███████[#FFFFFF]██████████[/#]███████[#F0C060]█[/#][/]
-  [#4A90E2]         ▀█████[#FFFFFF]██████████[/#]█████▀ [#F0C060]█[/#][/]
-  [#4A90E2]               [#FFFFFF]████  ████[/#]     [#F0C060]█[/#][/]
-  [#4A90E2]               [#FFFFFF]████  ████[/#]     [#F0C060]█[/#][/]
-  [bold #A4C8F0]         ✧ 1000+ Year Journey for Magic ✧[/]
+  [bold #FFD700]       🪄 Frieren // Beyond Journey's End 🪄[/]
+  [bold #88CCFF]⣿⣿⣿⣿⣫⣶⡿⢟⣛⡟⣴⣿⣿⣿⡟⡵⣛⣵⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣝⢿⣮⡻⣿⣿⣿⣮⢯⣝⢿⣿⣧⡘⣿⣿⣿⣿⣿[/]
+  [bold #88CCFF]⣿⣿⡿⣵⣿⢫⣾⣿⢯⣾⣿⣿⣿⢏⢎⣾⣿⣿⣿⣿⣿⣿⢏⣿⢧⢻⣯⢿⣿⣿⣿⣿⣷⡝⣷⡝⣿⣿⣿⣧⡻⣷⡝⣿⣷⡸⣿⣿⣿⣿[/]
+  [bold #88CCFF]⣿⣿⢱⣿⣱⣿⡿⢣⣿⣿⣿⣿⠏⣴⣿⣿⣿⣿⣿⣿⣿⢏⣾⠯⣪⣦⣻⣏⢿⣿⣿⣿⣿⣿⣮⢿⡜⣿⢿⣿⣷⡹⣿⡜⣿⣧⢿⣿⣿⣿[/]
+  [bold #88CCFF]⣿⡏⣿⢧⣿⡿⣁⣾⣿⣿⣿⡿⣼⣿⣿⣿⣿⣿⣿⡿⣫⡿⣡⣾⣿⣿⣷⣝⢧⡻⣿⣿⣿⣿⣿⣧⢻⣹⣯⣿⣷⣵⣻⣷⢹⣿⣸⣿⣿⣿[/]
+  [bold #88CCFF]⣿⢹⡟⣾⣿⠳⣼⣿⣿⣿⣿⢧⣿⣿⣿⡿⣟⣯⢝⡴⢉⣺⣿⣿⣿⣿⣿⣿⡷⢉⢍⢭⣝⡿⣿⣿⣧⢇⣿⣿⣿⣿⣇⣿⡏⣿⡏⣿⣿⣿[/]
+  [bold #88CCFF]⡿⣾⣧⣿⣇⢳⣿⣿⣿⣿⣿⣸⣿⣿⣿⣷⠖⢔⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿⣷⣦⣜⠷⣾⣿⣿⣎⢿⣿⣿⣿⣿⣸⣿⢹⣷⢻⣿⣿[/]
+  [bold #88CCFF]⡇⣿⢸⣿⡼⣾⣿⣿⣿⣿⡇⣿⣿⣿⢟⣵⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣮⣝⡿⢿⢸⣿⣿⣿⣿⡇⣿⣸⣿⢸⣿⣿[/]
+  [bold #88CCFF]⣿⣿⢸⡇⡇⣿⣿⣿⣿⣿⡇⣛⣭⣾⣿⣿⠿⢿⣟⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣛⣛⡿⠿⣿⣿⣿⣿⢸⣿⣿⣿⣿⣇⣿⡇⣿⡿⣿⣿[/]
+  [bold #88CCFF]⣛⣻⣬⣥⣵⣿⣿⣿⣿⡇⡇⣿⣿⡿⠓⠊⠉⠉⠁⠀⣻⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠉⠉⠐⢻⣿⣿⣸⣿⣿⣿⡟⡿⣿⣥⣽⣃⣻⠿[/]
+  [bold #88CCFF]⣛⣛⣿⣭⣽⡿⢹⣿⣿⣷⢧⢿⣿⣧⣀⣀⣤⣤⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣦⣤⣤⣄⣸⣿⡟⣿⣿⣿⣿⢿⡇⣭⣭⣽⣛⣻⠿[/]
+  [bold #88CCFF]⢿⣿⣿⣿⡏⡇⡞⣿⣿⣿⡜⡼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⡏⣿⣿⡿⢸⢣⣿⣿⣿⣿⡿⣸[/]
+  [bold #88CCFF]⣥⣭⣛⣛⣳⢳⢊⡹⣿⣿⣧⠱⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣸⢳⣿⣿⠳⡘⣴⣿⣿⣿⠟⢕⣻[/]
+  [bold #88CCFF]⡏⣽⢛⣛⡟⢞⠜⢰⡝⣿⣿⡞⣄⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠧⣃⣿⡿⣣⡇⣤⠙⣿⣿⠶⣞⡛⣭[/]
+  [bold #88CCFF]⡇⣿⢸⣿⡇⣿⢠⡹⣿⣮⣻⢿⡹⣷⣿⣿⣿⣿⣿⣿⣿⣿⣝⣛⣫⣟⣟⣫⣿⣿⣿⣿⣿⣿⣿⣣⡞⣾⢟⣵⣆⡔⢹⣶⣶⢸⣿⣿⡇⣿[/]
+  [bold #88CCFF]⡇⣿⢸⣿⣷⠏⠈⣿⣿⣿⣿⣧⢪⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢫⢪⢱⣿⣿⣿⠋⠈⣿⣿⢸⣿⣿⣿⢿[/]
+  [bold #88CCFF]⠁⠻⢸⣿⣿⠀⠀⣿⣿⣿⣿⣿⣷⣝⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢗⣵⣿⢸⣿⢹⡟⡆⠀⣿⡟⣾⣿⡿⣿⢸[/]
+  [bold #88CCFF]⠀⠀⠀⠈⠻⡆⠂⣿⣿⣿⣿⣿⣿⣿⣷⣭⡻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣛⣵⣿⣿⣿⢸⡿⣼⢳⡅⠀⣿⠃⣿⣿⡇⠿⠈[/]
+  [bold #88CCFF]⠀⠀⠀⠀⠀⠰⢻⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⡇⣮⣝⡻⠿⣿⣿⣿⣿⣿⠿⣟⣫⡅⠈⣿⣿⣿⣿⣿⢸⡇⣏⣿⡟⣿⣏⠻⠟⠉⠀⠀⠀[/]
+  [bold #88CCFF]⠀⠀⠀⠀⠀⠀⠈⣿⣿⡇⣿⣿⣿⣿⡟⣋⣀⠀⢤⣤⣤⣤⣤⣬⣭⣤⣤⣤⣤⡄⢁⣀⡉⢿⣿⣿⣿⣸⠻⣼⣿⡇⠟⠀⠀⠀⠀⠀⠀⠀[/]
+  [bold #88CCFF]⠀⠀⠀⠀⠀⠀⠀⠸⣿⣇⣿⣿⣿⣿⡏⣭⣭⢸⣷⢠⠔⠒⠲⢶⣶⣶⣖⣲⣾⣾⣭⣭⣟⣼⣿⣿⣿⡿⣰⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [italic #F0F8FF]    「 It's dark and scary! Pull me out of this mimic! 」[/]

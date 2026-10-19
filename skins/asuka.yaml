@@ -1,67 +1,90 @@
 name: asuka
-description: Asuka Langley anime ASCII art skin for Hermes CLI
+description: Asuka Langley Soryu (Neon Genesis Evangelion) — EVA Unit-02 crimson, blaze orange & NERV amber theme
 colors:
-  banner_border: '#E03A3E'
-  banner_title: '#FF5A36'
-  banner_accent: '#FFAA4C'
-  banner_dim: '#B02626'
-  banner_text: '#FFF0ED'
-  ui_accent: '#FF5A36'
-  ui_label: '#FFAA4C'
-  ui_ok: '#7EDB88'
-  ui_error: '#FF2A2A'
-  ui_warn: '#FFD043'
-  prompt: '#E03A3E'
-  input_rule: '#8A1C1C'
-  response_border: '#B02626'
-  session_label: '#FFAA4C'
+  background: '#160707'
+  banner_border: '#FF1E1E'
+  banner_title: '#FF6A00'
+  banner_accent: '#FFC400'
+  banner_dim: '#8A1C1C'
+  banner_text: '#FFE8E5'
+  ui_accent: '#FF1E1E'
+  ui_label: '#FF6A00'
+  ui_text: '#FFE8E5'
+  ui_border: '#991111'
+  ui_ok: '#00FF66'
+  ui_warn: '#FFC400'
+  ui_error: '#FF0033'
+  prompt: '#FF1E1E'
+  input_rule: '#991111'
+  response_border: '#FF1E1E'
+  session_label: '#FF6A00'
   session_border: '#8A1C1C'
-  status_bar_bg: '#1A0808'
-  voice_status_bg: '#1A0808'
-  selection_bg: '#2E0C0C'
-  completion_menu_bg: '#1A0808'
+  status_bar_bg: '#2B0909'
+  status_bar_text: '#FFE8E5'
+  status_bar_strong: '#FF6A00'
+  status_bar_dim: '#8A1C1C'
+  status_bar_good: '#00FF66'
+  status_bar_warn: '#FFC400'
+  status_bar_bad: '#FF6A00'
+  status_bar_critical: '#FF0033'
+  completion_menu_bg: '#220707'
+  completion_menu_current_bg: '#991111'
+  selection_bg: '#4D0F0F'
+  shell_dollar: '#FFC400'
+  voice_status_bg: '#2B0909'
 spinner:
   waiting_faces:
-  - (◕‿◕)
-  - (¬‿¬)
-  - (◔_◔)
+  - (¬_¬)
+  - (>_<)
+  - (｀Δ´)
+  - (￣^￣)
   thinking_faces:
-  - (◉_◉)
-  - (◍_◍)
-  - (◉‿◉)
+  - 💢
+  - 🔥
+  - '[EVA-02]'
+  - '[A.T.FIELD]'
   thinking_verbs:
-  - charging progressive knife
-  - calibrating synch rate
-  - checking NERV status
+  - synchronizing neural A-10 clips with EVA Unit-02
+  - deploying Progressive Knife
+  - calibrating LCL plug depth
+  - projecting maximum A.T. Field
+  - muttering Anta Baka?! at your code
+  - checking MAGI System Melchior-1
   wings:
-  - - 🟥
-    - 🟥
+  - - 💢
+    - 💢
+  - - ◢
+    - ◣
+  - - ⚠️
+    - ⚠️
 branding:
-  agent_name: NERV / ASUKA
-  welcome: Welcome to Asuka Langley // Evangelion. Ready.
-  goodbye: Session finished.
-  response_label: ' 🟥 Asuka Langley '
-  prompt_symbol: ┊
-  help_header: ◈ ASUKA COMMANDS
-tool_prefix: ┊
+  agent_name: Asuka Langley Soryu (EVA-02)
+  welcome: '[bold #FF1E1E]💢 EVA Unit-02 launch! Try not to slow me down, Anta Baka?![/]'
+  goodbye: '[#FF6A00]Mission complete! Naturally, I was the best pilot! 💢[/]'
+  response_label: ' 💢 Asuka // EVA-02 '
+  prompt_symbol: '💢 ❯ '
+  help_header: ⚠️ NERV HQ // EVA UNIT-02 TACTICAL OPERATIONS
+tool_prefix: '◢ '
 banner_hero: |-
-  [bold #FF5A36]       ◈ Asuka Langley // Evangelion ◈[/]
-  [#E03A3E]             ▄▄██████████▄▄[/]
-  [#E03A3E]          ▄██████████████████▄[/]
-  [#E03A3E]        ▄██████████████████████▄[/]
-  [#E03A3E]       ████[#00FF00]▄█[/#]████████████[#00FF00]█▄[/#]████[/]
-  [#E03A3E]      ████[#00FF00]███[/#]████████████[#00FF00]███[/#]████[/]
-  [#E03A3E]      ████████[#FFF0ED]▀▀▀██▀▀▀[/#]████████[/]
-  [#E03A3E]      ██████[#FFF0ED]   (●)  (●)  [/#]██████[/]
-  [#E03A3E]      ██████[#FFF0ED]      ▿      [/#]██████[/]
-  [#E03A3E]       ██████[#FFF0ED]    ▀▄▄▀   [/#]██████[/]
-  [#E03A3E]        ██████[#00FF00]▄▄████▄▄[/#]██████[/]
-  [#E03A3E]       ▄█████[#FF2A2A]██████████[/#]█████▄[/]
-  [#E03A3E]      ███████[#FF2A2A]██████████[/#]███████[/]
-  [#E03A3E]     ████████[#FF2A2A]████[#000000]02[/#]████[/#]████████[/]
-  [#E03A3E]     ████████[#FF2A2A]██████████[/#]████████[/]
-  [#E03A3E]     ▀███████[#FF2A2A]██████████[/#]███████▀[/]
-  [#E03A3E]        ▀████[#FF2A2A]██████████[/#]████▀[/]
-  [#E03A3E]             [#FF2A2A]████  ████[/#][/]
-  [#E03A3E]             [#FF2A2A]████  ████[/#][/]
-  [bold #FFAA4C]       ⚡ Anta Baka?! Evangelion 02 ⚡[/]
+  [bold #FF6A00]        💢 Asuka Langley // EVA Unit-02 💢[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠖⢉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⣄⠙[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠊⢀⠔⠁⠀⠀⡠⠒⠀⢠⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⡀⠈⠳⡄⠀⠀⠀⠀⠀⠀⠀⠀⠈⢣[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⠀⢠⠎⡠⡰⠋⠀⠀⡠⠊⠀⠀⠀⡎⢀⠀⠀⠀⡀⠘⡆⠀⠀⠀⠀⠀⠀⠀⠀⠈⠢⡄⠈⢦⠀⠀⠀⠀⠀⠀⠀⠀⠈[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⢠⢃⠞⡰⠁⠀⣴⡿⠁⠀⠀⠀⢸⠁⠸⠀⠀⠀⢆⠀⠘⣆⠀⠀⠀⣄⠀⠀⠀⠀⠀⠈⢦⠀⣷⡀⠀⠀⠀⠀⠀⠀⠀[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⢀⣧⠋⡰⠁⢀⣾⣷⠃⠀⠀⢠⣶⣿⠀⡆⠀⠀⠀⢸⠀⠀⡜⣧⡀⠀⠈⢣⡀⢂⠀⠀⠀⠀⠀⠀⠙⠲⣖⡊⠉⠀⠀⠠[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⢸⡏⢀⠇⠀⣼⣿⡏⠀⠀⢠⣿⡿⢻⠀⣿⡀⠀⠀⢸⡆⠀⢳⡈⢿⠀⠀⠀⠱⡄⠑⣄⠀⠀⠀⠀⠰⣦⣀⠙⢆⠀⠀⠀[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⢸⡇⢸⠀⢰⡏⢹⡇⠀⠀⣾⡿⠀⠸⡄⢸⣇⠀⠀⡏⣷⡀⠸⣷⣌⢣⡀⠀⠀⢹⣄⠈⢳⡀⠀⠀⠀⠸⣮⠓⣤⣻⡀⠀[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⠧⠘⡄⣸⠀⢸⣷⠀⢰⡿⡧⡀⠀⢣⠈⣿⡀⠀⣷⢻⢣⠀⢹⣿⣦⡑⣄⠀⠀⢻⣆⠀⠹⣦⡀⠀⠀⢹⣏⠀⠙⣧⣾[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⠀⠀⢧⡏⠀⠈⠻⡆⣸⣧⣷⠿⣆⠈⢆⢻⣷⡀⢹⣿⠀⠱⡄⢻⡷⡑⢮⣳⡀⠈⣿⣄⠀⢻⣏⠳⢄⡀⢻⣄⣴⣿⡃[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠙⢿⣿⡷⠀⣿⣧⣼⢦⣿⣳⣄⣿⣧⠀⢈⣓⣷⣼⠮⣿⡿⢦⣽⣿⣧⠘⣿⣀⠠⣿⣾⣿⠋⠙⣧[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⠚⢻⡗⠀⠹⡿⢠⠀⠙⣮⠻⢿⡟⢿⣿⣩⣿⣿⠻⢾⠷⡀⢸⠻⣯⠳⣿⡟⢉⣻⣿⣧⠀⠀⢹[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢶⠟⠁⠀⢸⡇⠈⠉⠁⠀⠀⠀⠈⠷⠀⠈⠈⠹⢿⣿⠏⠀⠈⢳⣼⢾⡆⢿⣴⣿⡗⢫⠈⢻⢿⣷⡀⠀[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣡⠏⠀⠀⠀⢸⡆⠀⢠⡖⠃⠀⠀⠀⠀⠀⠀⠀⠀⠙⠒⠀⠀⠠⠞⠁⠀⠁⠸⣧⡼⠇⠚⣠⠏⠈⠻⣷⡄[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡿⢉⡤⠠⣤⡀⠀⠳⣄⠈⠻⠄⠀⠀⢀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣴⡟⠁⠀⠀⢀⠈⠓[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⡇⣸⡇⣼⠋⣷⢠⠀⠙⢦⠀⠀⠻⣿⡟⠁⠀⠈⠳⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⡴⠋⢹⣿⢧⠀⠀⠀⠀⠉⠂[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⢀⣰⠏⠀⢿⣿⣷⡿⣃⣾⣤⣤⣼⣷⣄⠀⠹⠇⠀⠀⠀⠀⢸⡄⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⡿⠓⡌⡎⢢⡀⠀⠀⠀[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⣠⠴⠋⠁⠀⠀⠀⠉⢩⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀⠀⠀⠀⣸⠁⠀⠀⠀⢀⣤⣂⣤⣶⡿⠋⣀⣴⣿⣘⣆⠻⣦⡀⠀[/]
+  [bold #FF1E1E]⠀⠀⢀⠴⠊⠁⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⡀⠑⠒⠚⢁⣀⣠⠴⠾⣿⣿⠟⠋⠁⠀⢾⡿⠟⠋⠉⣯⠳⡘⢿⡦[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⡿⠟⢻⡏⣿⠀⠉⠻⣿⡿⠋⠉⠻⢄⠀⠛⠋⠀⠀⠀⠀⠀⢀⣠⠴⠛⠁⠀⠈⣷⢝[/]
+  [bold #FF1E1E]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⠟⠉⠀⠀⡜⣷⡏⢷⠀⢸⣿⣧⡀⠀⠀⠸⡇⠀⠀⠀⢀⡤⠒⠋⠁⠀⠀⣀⣠⣴⠾⢿⡄[/]
+  [italic #FFC400]     「 Anta Baka?! Watch the Second Child work! 」[/]

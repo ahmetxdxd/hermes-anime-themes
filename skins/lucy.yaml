@@ -1,71 +1,90 @@
 name: lucy
-description: Lucy anime ASCII art skin for Hermes CLI
+description: 'Lucy Kushinada (Cyberpunk: Edgerunners) — Night City neon magenta, cyber-cyan & Lunar gold theme'
 colors:
-  banner_border: '#00B4D8'
-  banner_title: '#48CAE4'
-  banner_accent: '#90E0EF'
-  banner_dim: '#0077B6'
-  banner_text: '#CAF0F8'
-  ui_accent: '#48CAE4'
-  ui_label: '#90E0EF'
-  ui_ok: '#80FFDB'
-  ui_error: '#FF5A5F'
-  ui_warn: '#FFD166'
-  prompt: '#00B4D8'
-  input_rule: '#023E8A'
-  response_border: '#0077B6'
-  session_label: '#90E0EF'
-  session_border: '#023E8A'
-  status_bar_bg: '#03045E'
-  voice_status_bg: '#03045E'
-  selection_bg: '#023E8A'
-  completion_menu_bg: '#03045E'
+  background: '#0D061A'
+  banner_border: '#00F0FF'
+  banner_title: '#FF007F'
+  banner_accent: '#FCEE0A'
+  banner_dim: '#6E358B'
+  banner_text: '#E8F9FD'
+  ui_accent: '#00F0FF'
+  ui_label: '#FF007F'
+  ui_text: '#E8F9FD'
+  ui_border: '#5A189A'
+  ui_ok: '#00FF9F'
+  ui_warn: '#FCEE0A'
+  ui_error: '#FF0055'
+  prompt: '#00F0FF'
+  input_rule: '#5A189A'
+  response_border: '#FF007F'
+  session_label: '#FCEE0A'
+  session_border: '#5A189A'
+  status_bar_bg: '#170B2E'
+  status_bar_text: '#E8F9FD'
+  status_bar_strong: '#00F0FF'
+  status_bar_dim: '#7B2CBF'
+  status_bar_good: '#00FF9F'
+  status_bar_warn: '#FCEE0A'
+  status_bar_bad: '#FF7B00'
+  status_bar_critical: '#FF0055'
+  completion_menu_bg: '#130926'
+  completion_menu_current_bg: '#5A189A'
+  selection_bg: '#3C096C'
+  shell_dollar: '#FCEE0A'
+  voice_status_bg: '#170B2E'
 spinner:
   waiting_faces:
-  - (◕‿◕)
-  - (¬‿¬)
-  - (◔_◔)
+  - '[ICE_BREAKER]'
+  - '[NET_LINK]'
+  - '[LUCY_OS]'
+  - '[MOON_BD]'
   thinking_faces:
-  - (◉_◉)
-  - (◍_◍)
-  - (◉‿◉)
+  - 🌙
+  - ⚡
+  - 💻
+  - 🛜
   thinking_verbs:
-  - hacking subnet
-  - running breach protocol
-  - dreaming of the moon
+  - diving deep past the Old Net Blackwall
+  - 'uploading Quickhack: Short Circuit'
+  - breaching Arasaka subnet ICE protocols
+  - deploying monowire countermeasures
+  - running the Lunar Braindance simulation
+  - purging Arasaka tracker daemons for David
   wings:
-  - - ▰
-    - ▰
+  - - 🌙
+    - ⚡
+  - - ⟦
+    - ⟧
+  - - 🛜
+    - 🛜
 branding:
-  agent_name: NIGHT CITY / LUCY
-  welcome: Welcome to Lucy Kushinada // Cyberpunk Edgerunners. Ready.
-  goodbye: Session finished.
-  response_label: ' ▰ Lucy '
-  prompt_symbol: ▰
-  help_header: ◈ LUCY COMMANDS
-tool_prefix: ▰
+  agent_name: Lucy Kushinada (Netrunner)
+  welcome: '[bold #00F0FF]🌙 Deep-dive link active. Let''s breach the ICE and fly to the Moon.[/]'
+  goodbye: '[#FF007F]Jacking out of the subnet... I''ll wait for you on the Moon. 🌙[/]'
+  response_label: ' 🌙 Lucy // Netrunner '
+  prompt_symbol: '🌙 ❯ '
+  help_header: ⚡ NIGHT CITY NETRUNNER // QUICKHACK CYBERDECK
+tool_prefix: '⚡ '
 banner_hero: |-
-  [bold #48CAE4]       ◈ Lucy Kushinada // Cyberpunk ◈[/]
-  [#00D4D8]        ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[/]
-  [#00D4D8]    ▄██████████████████████████▄[/]
-  [#00D4D8]  ▄██████████████████████████████▄[/]
-  [#00D4D8] ▄██████████████████████████████████▄[/]
-  [#00D4D8]██████████████████████████████████████[/]
-  [#00D4D8]██████████[#FF2A85]████████████████[/#]██████████[/]
-  [#00D4D8]█████████[#FF2A85]████████████████████[/#]█████████[/]
-  [#00D4D8]████████[#FF2A85]██████████████████████[/#]████████[/]
-  [#00D4D8]███████[#FF2A85]████████████████████████[/#]███████[/]
-  [#00D4D8] ███████[#FF2A85]██████████████████████[/#]███████[/]
-  [#00D4D8]  ████████[#FF2A85]██████████████████[/#]████████[/]
-  [#00D4D8]   ██████████[#FF2A85]████████████[/#]██████████[/]
-  [#00D4D8]    ██████████████████████████████[/]
-  [#00D4D8]     ▀██████████████████████████▀[/]
-  [#00D4D8]       ▀██████████████████████▀[/]
-  [#00D4D8]           ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[/]
-  [#00D4D8]             ████████████[/]
-  [#00D4D8]           ▄██████████████▄[/]
-  [#00D4D8]         ▄██████████████████▄[/]
-  [#00D4D8]        ██████████████████████[/]
-  [#00D4D8]       ████████████████████████[/]
-  [#00D4D8]      ██████████████████████████[/]
-  [bold #FF2A85]         🌙 Fly Me To The Moon[/]
+  [bold #FF007F]     🌙 Lucy Kushinada // Cyberpunk: Edgerunners 🌙[/]
+  [bold #00F0FF]⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀[/]
+  [bold #00F0FF]⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀[/]
+  [bold #00F0FF]⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀[/]
+  [bold #00F0FF]⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀[/]
+  [bold #00F0FF]⠀⣿⣿⣿⣿⣿⣿⣿⣷⢿⣿⣿⣿⣿⣿⣿⣿⣿⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀[/]
+  [bold #00F0FF]⢀⣿⠘⣿⡿⣿⣿⣿⣿⡎⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⡇⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀[/]
+  [bold #00F0FF]⠈⣿⠀⢿⣿⢹⣻⣿⣯⣿⡄⢻⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿⢸⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡞⣿⣿⣿⡄⠀[/]
+  [bold #00F0FF]⠀⣿⡄⠘⣿⡇⢿⣿⡿⡜⢿⣀⣹⣯⠿⠟⠛⠋⠁⠉⠉⠉⠈⠀⢿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢻⣿⣿⣧⠀[/]
+  [bold #00F0FF]⠀⢿⣇⠀⠹⠿⠌⠋⠋⠉⠉⠉⠁⠀⣀⣠⡤⠶⢶⣶⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⣿⣿⣿⠀[/]
+  [bold #00F0FF]⠀⠀⢻⡤⠖⣒⣢⣄⠀⠀⠀⠀⠀⠀⠀⡟⠀⠀⠈⢿⠓⣻⡿⠋⠀⣿⣿⣿⣿⣿⣿⡇⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢻⣿⡟⠀[/]
+  [bold #00F0FF]⠀⠀⠀⢹⣌⣠⠶⣾⣷⡄⠀⠀⠀⠀⠀⠀⠀⢀⢀⣀⣽⠋⠀⠀⠀⢹⣿⣿⣿⣿⣿⡇⣿⣿⣿⣿⣿⣿⣿⣿⣟⣿⣿⣿⣿⣿⠿⠋⠀⠀[/]
+  [bold #00F0FF]⠀⠀⠀⢸⣿⣿⡄⠘⠭⡇⠀⠀⠀⠀⠀⠀⠀⠈⠻⠛⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⡇⢸⣿⣿⣿⣿⣿⣿⣿⣷⢿⣿⣿⣿⠟⠀⠀⠀⠀[/]
+  [bold #00F0FF]⠀⠀⠀⢸⣿⣿⡍⠳⢾⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣧⢸⣿⣿⣿⣿⣿⣿⣿⣿⠸⢛⠟⠁⠀⠀⠀⠀⠀[/]
+  [bold #00F0FF]⠀⠀⠀⢸⣿⣿⣇⢀⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⣿⣿⣿⢿⠔⠁⠀⠀⠀⠀⠀⠀⠀[/]
+  [bold #00F0FF]⠀⠀⠀⠨⣿⣿⣿⡌⣷⣄⠠⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⣿⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [bold #00F0FF]⠀⠀⠀⠀⣿⣿⣇⠹⡌⠉⠁⠀⠀⠀⠀⣀⡤⢤⣴⡶⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⠋⣾⢹⣿⣿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [bold #00F0FF]⠀⠀⠀⠀⣿⣿⣯⠀⠹⣄⠀⠀⠰⣯⣵⢟⣋⣽⡋⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⠀⣿⠸⠟⢹⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [bold #00F0FF]⠀⠀⠀⠀⢸⣿⣿⠀⠀⠙⢦⡀⠀⠈⠿⠿⠿⠛⠁⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⡿⠀⠉⠀⠀⠘⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [bold #00F0FF]⠀⠀⠀⠀⢸⣿⣿⠀⠀⠀⢸⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠴⠋⠀⣿⣿⣿⡇⠀⠀⣀⣠⣤⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [bold #00F0FF]⠀⠀⠀⠀⠀⣿⣿⡀⠀⠀⠀⢻⣿⣿⣄⠀⠀⠀⠀⠀⣀⣴⠛⠁⠀⠀⠀⣿⣿⣿⣷⣶⠿⠛⠋⠉⠘⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [italic #FCEE0A]      「 I really want to stay at your house... 」[/]

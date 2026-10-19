@@ -1,64 +1,90 @@
 name: eris
-description: Eris anime ASCII art skin for Hermes CLI
+description: Eris Boreas Greyrat (Mushoku Tensei) — Mad Sword King fiery scarlet & steel blade theme
 colors:
-  banner_border: '#C0392B'
-  banner_title: '#E74C3C'
-  banner_accent: '#F39C12'
-  banner_dim: '#962D22'
-  banner_text: '#FDEDEC'
-  ui_accent: '#E74C3C'
-  ui_label: '#F39C12'
-  ui_ok: '#2ECC71'
-  ui_error: '#C0392B'
-  ui_warn: '#F1C40F'
-  prompt: '#E74C3C'
-  input_rule: '#78281F'
-  response_border: '#962D22'
-  session_label: '#F39C12'
-  session_border: '#78281F'
-  status_bar_bg: '#1C0604'
-  voice_status_bg: '#1C0604'
-  selection_bg: '#2C0B08'
-  completion_menu_bg: '#1C0604'
+  background: '#170707'
+  banner_border: '#E62E2E'
+  banner_title: '#FF5252'
+  banner_accent: '#FFD166'
+  banner_dim: '#8C2D2D'
+  banner_text: '#FFF0ED'
+  ui_accent: '#E62E2E'
+  ui_label: '#FFD166'
+  ui_text: '#FFF0ED'
+  ui_border: '#8C2D2D'
+  ui_ok: '#6BCB77'
+  ui_warn: '#FFD166'
+  ui_error: '#FF1E1E'
+  prompt: '#FF5252'
+  input_rule: '#8C2D2D'
+  response_border: '#E62E2E'
+  session_label: '#FFD166'
+  session_border: '#8C2D2D'
+  status_bar_bg: '#260B0B'
+  status_bar_text: '#FFF0ED'
+  status_bar_strong: '#FFD166'
+  status_bar_dim: '#8C2D2D'
+  status_bar_good: '#6BCB77'
+  status_bar_warn: '#FFD166'
+  status_bar_bad: '#F48C06'
+  status_bar_critical: '#FF1E1E'
+  completion_menu_bg: '#1F0909'
+  completion_menu_current_bg: '#8C2D2D'
+  selection_bg: '#4A1212'
+  shell_dollar: '#FFD166'
+  voice_status_bg: '#260B0B'
 spinner:
   waiting_faces:
-  - (◕‿◕)
-  - (¬‿¬)
-  - (◔_◔)
+  - (｀へ´)
+  - (ง'̀-'́)ง
+  - (￣^￣)ゞ
+  - (>_<)💢
   thinking_faces:
-  - (◉_◉)
-  - (◍_◍)
-  - (◉‿◉)
+  - 🗡️
+  - 🔥
+  - 🐺
+  - 💥
   thinking_verbs:
-  - swinging sword
-  - channeling battle aura
-  - Sword God stance
+  - practicing the Sword of Light (Touki)
+  - training relentlessly at the Sword Sanctum
+  - crossing arms with an intimidating Boreas glare
+  - sharpening her Demon-Eye Dragon blade
+  - journeying across the Demon Continent with Dead End
+  - preparing to protect Rudeus at all costs
   wings:
+  - - 🗡️
+    - 🔥
   - - ⚔
     - ⚔
+  - - 💥
+    - 💥
 branding:
-  agent_name: MUSHOKU / ERIS
-  welcome: Welcome to Eris Boreas Greyrat // Mushoku Tensei. Ready.
-  goodbye: Session finished.
-  response_label: ' ⚔ Eris Greyrat '
-  prompt_symbol: ⚔
-  help_header: ◈ ERIS COMMANDS
-tool_prefix: ⚔
+  agent_name: Eris Boreas Greyrat (Mad Sword King)
+  welcome: '[bold #FF5252]🗡️ Hmph! Stand back—Eris of Dead End will cut through your problem![/]'
+  goodbye: '[#FFD166]I''m going back to swing my sword a thousand times! See ya! 🗡️[/]'
+  response_label: ' 🗡️ Eris Greyrat '
+  prompt_symbol: '🗡️ ❯ '
+  help_header: 🗡️ SWORD SANCTUM // SWORD GOD STYLE TECHNIQUES
+tool_prefix: '🗡️ '
 banner_hero: |-
-  [bold #E74C3C]        ◈ Eris Boreas Greyrat // Mushoku Tensei ◈[/]
-  [#C0392B]                ▄▄████████▄▄[/]
-  [#C0392B]             ▄████████████████▄[/]
-  [#C0392B]           ▄████████████████████▄[/]
-  [#C0392B]         ▄████████████████████████▄[/]
-  [#C0392B]        ████████[#FDEDEC]▀▀▀████▀▀▀[/#]████████[/]
-  [#C0392B]       [#F39C12]🗡[/#]█████[#FDEDEC]   ( •̀)  (•́ )  [/#]█████[#F39C12]🗡[/#][/]
-  [#C0392B]        ██████[#FDEDEC]      ▿      [/#]██████[/]
-  [#C0392B]         ██████[#FDEDEC]    ▀▄▄▀    [/#]██████[/]
-  [#C0392B]          ██████[#F39C12]▄▄████▄▄[/#]██████[/]
-  [#C0392B]        ▄██████[#78281F]██████████[/#]██████▄[/]
-  [#C0392B]       ████████[#78281F]██████████[/#]████████[/]
-  [#C0392B]       ████████[#78281F]██████████[/#]████████[/]
-  [#C0392B]       ▀███████[#78281F]██████████[/#]███████▀[/]
-  [#C0392B]          ▀████[#78281F]██████████[/#]████▀[/]
-  [#C0392B]               [#78281F]████  ████[/#][/]
-  [bold #F39C12]          🗡 Sword King of the Holy Land 🗡[/]
+  [bold #FFD166]      🗡️ Eris Boreas Greyrat // Mushoku Tensei 🗡️[/]
+  [bold #FF5252]⡏⣞⡾⡹⡼⢕⢗⡽⡪⡣⡫⡎⠓⡉⠠⢀⣑⢦⢥⣤⣤⣦⣶⣾⣾⣯⣿⣽⣳⣳⣲⢴⣔⣐⠡⡂⢍⠝⡳⢤⣔⡀⠄⠔⡐⡐⡐⡐⠔⡐[/]
+  [bold #FF5252]⡽⣝⢮⢳⡹⡕⡏⡎⠒⠡⠁⣀⣥⠶⣺⣻⡾⣟⢽⡺⣝⡵⡯⣞⣞⢮⢯⢯⣻⣻⢾⣧⣗⠯⣟⢷⢵⣌⡦⣕⣬⡻⡗⡧⣪⢨⠐⢌⢊⠔[/]
+  [bold #FF5252]⣯⡳⣓⢗⡝⠊⡈⠠⢈⡴⠞⢉⠠⢊⣾⢏⣗⢽⢕⣟⢞⣮⣻⢺⣪⢯⢯⣳⣳⣝⣗⢗⣟⣟⣮⡭⡳⡫⡯⣻⢿⣿⣿⢮⣮⢝⡳⡵⡤⡡[/]
+  [bold #FF5252]⣗⢽⠊⠁⡠⠐⢀⠔⠋⠀⡐⢀⠮⢐⡟⡜⡮⣫⢯⢞⡽⣪⣞⡵⣳⣝⡓⡗⣵⢱⡓⡟⣮⡺⡺⡺⣳⣕⢝⢜⢳⢝⢿⣿⣜⠿⣽⣺⢭⣗[/]
+  [bold #FF5252]⢊⣠⢴⠝⠀⡰⠈⢀⠈⠀⡰⠁⢮⠀⢧⠱⡙⡮⡇⡗⢽⢕⣗⢽⢕⣯⡫⡳⣕⡕⣕⢵⢱⣍⢇⢏⢞⡮⡷⣕⢵⡩⡣⣛⢿⣮⢲⢪⡙⠺[/]
+  [bold #FF5252]⣯⣞⡗⠀⠡⠀⠠⠀⠀⠐⠁⢰⡃⡅⡘⣌⢪⠸⡅⢏⢪⠪⡪⡪⣕⣗⡇⠁⠣⠹⡺⡮⡮⣪⣻⣪⣇⢯⣻⡽⣧⡳⣝⣜⢎⢿⣷⣱⢹⢤[/]
+  [bold #FF5252]⣷⢷⠃⡈⠀⠐⠀⠀⡠⠁⢀⢯⡆⢪⠠⡈⢢⡳⡱⡹⡜⣜⢜⣞⢼⡪⣮⠀⠀⠀⠀⠑⠹⣳⢵⡳⣗⡯⣞⣞⣯⣯⣗⣗⢿⣜⢽⣾⣧⣣[/]
+  [bold #FF5252]⢷⠋⢀⠀⠀⠁⠀⢠⠂⠀⢜⡽⡸⡨⠄⢍⢶⡘⠽⣪⣻⡜⣎⢮⡳⣝⢾⡀⠀⠀⠀⠀⢀⠀⠙⢮⡳⣻⣞⢞⣞⣯⣷⢽⣳⢽⢮⢿⣯⣷[/]
+  [bold #FF5252]⠋⠄⠀⠀⢀⠐⡨⡨⠠⢐⡽⠨⠈⠱⣑⡑⢵⡹⣕⢮⡪⢿⣜⢵⡫⣷⢝⡆⣠⡲⠚⠉⠁⠀⠀⠀⠙⢜⢽⣳⡵⣻⣿⡯⡾⡽⣽⢽⣿⣽[/]
+  [bold #FF5252]⠈⠄⠂⠀⡐⠌⢄⣇⠂⣰⠃⠅⢀⡀⣀⠣⡱⡱⣣⢳⡹⢭⢻⣳⢳⢝⢕⡷⠃⠀⠀⢀⢀⢀⡀⣀⠀⠈⠱⡝⢷⢽⣿⡽⡽⣽⡳⣯⡷⣿[/]
+  [bold #FF5252]⠀⠅⠠⢀⢊⠌⡢⣗⠄⡺⠨⠈⠁⠉⠈⠉⠛⠪⡪⡣⡣⡓⡕⡝⡕⣝⡈⢧⠈⡐⣬⢞⠭⣍⠝⢮⡉⠛⢷⡿⠚⢯⣿⢽⢽⣺⢽⣺⢿⣺[/]
+  [bold #FF5252]⠀⠡⠐⡐⢔⠡⠢⣿⠄⡇⠅⠀⠀⠀⢀⢀⠀⠀⢀⠐⠈⠊⠆⡓⢜⢐⠥⡀⠂⠸⠁⢺⡘⠾⢃⠓⠃⠀⣸⠃⠀⢹⡽⣸⢽⣺⢽⣺⡯⣷[/]
+  [bold #FF5252]⣇⠈⠄⠈⡢⡑⢅⢻⣧⢊⢂⣤⠖⢫⠯⢹⢙⢻⡲⢄⠀⠀⠀⠀⠁⠢⡱⠢⠀⠀⠀⠈⢆⠐⠀⡜⠀⠠⠑⠀⠀⢸⢢⢳⢕⢯⡯⡿⣿⣗[/]
+  [bold #FF5252]⡟⡆⡈⠐⡈⠢⡑⠍⣿⠻⢻⡇⠀⠘⡧⡚⡷⠐⢁⠀⠁⠀⠀⠀⠀⠀⠘⠈⠈⠀⠀⠀⠀⠂⠁⡀⠄⠁⢀⠀⠠⡑⡜⢜⡮⡏⡎⣾⣿⣿[/]
+  [bold #FF5252]⢢⢚⣌⢐⠨⣐⡘⢬⠸⣇⠀⠙⢄⠀⠘⣆⠀⢀⡘⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠈⠠⢐⠝⡐⡜⡵⡙⠾⡼⣯⣻⢿[/]
+  [bold #FF5252]⡱⡑⡆⢱⣐⢈⠹⢱⢝⢝⠥⠁⠈⠀⠀⠂⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡎⢊⠔⢉⡘⣜⣷⣤⣡⣙⢙[/]
+  [bold #FF5252]⢪⢪⢂⢝⠣⢐⢔⡠⠑⡱⢅⠣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠠⠀⠄⠀⠄⠄⣄⠀⠀⠀⠀⠀⠊⠀⠀⢀⣿⢿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF5252]⠕⢜⢁⣢⣪⣢⣵⢞⣷⣤⡑⡙⠕⠢⠤⢀⠀⠀⠀⠀⠀⣠⠐⡈⣤⡲⣲⡺⣪⣗⢗⣦⡺⠀⠀⠀⠀⠀⠀⠀⠀⣼⡿⣿⣿⣿⣿⣿⣾⢿[/]
+  [bold #FF5252]⢩⡚⢍⢼⣟⡿⢱⣟⡯⣿⣿⡞⡼⢄⠀⠀⠀⠀⠀⠀⠀⠈⢲⣶⡾⠚⢃⠉⠡⠀⡁⢠⠃⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF5252]⡰⢡⢣⣟⣽⢁⣿⡃⢯⣻⣿⣷⠹⡧⣄⠀⠀⠀⠀⠀⠀⠀⠀⠉⢄⢐⠀⠄⢁⠄⠆⠁⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [italic #FFD166]    「 Sword God Style: Sword of Light! Stand back! 」[/]

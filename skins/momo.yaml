@@ -1,64 +1,90 @@
 name: momo
-description: Momo Ayase anime ASCII art skin for Hermes CLI
+description: Momo Ayase (Dandadan) — Gyaru neon pink & turquoise psychic aura theme
 colors:
-  banner_border: '#E84393'
-  banner_title: '#FD79A8'
-  banner_accent: '#FF7675'
-  banner_dim: '#A22868'
-  banner_text: '#FDEEF4'
-  ui_accent: '#FD79A8'
-  ui_label: '#FF7675'
-  ui_ok: '#55EFC4'
-  ui_error: '#D63031'
-  ui_warn: '#FDCB6E'
-  prompt: '#E84393'
-  input_rule: '#6C1440'
-  response_border: '#A22868'
-  session_label: '#FF7675'
-  session_border: '#6C1440'
-  status_bar_bg: '#1A0410'
-  voice_status_bg: '#1A0410'
-  selection_bg: '#2C081B'
-  completion_menu_bg: '#1A0410'
+  background: '#0E141B'
+  banner_border: '#00F5D4'
+  banner_title: '#FF4D8D'
+  banner_accent: '#FFE600'
+  banner_dim: '#3B7A8C'
+  banner_text: '#F2FBF9'
+  ui_accent: '#00F5D4'
+  ui_label: '#FF4D8D'
+  ui_text: '#F2FBF9'
+  ui_border: '#197278'
+  ui_ok: '#00F59B'
+  ui_warn: '#FFE600'
+  ui_error: '#FF2A55'
+  prompt: '#00F5D4'
+  input_rule: '#197278'
+  response_border: '#FF4D8D'
+  session_label: '#00F5D4'
+  session_border: '#197278'
+  status_bar_bg: '#15222E'
+  status_bar_text: '#F2FBF9'
+  status_bar_strong: '#00F5D4'
+  status_bar_dim: '#3B7A8C'
+  status_bar_good: '#00F59B'
+  status_bar_warn: '#FFE600'
+  status_bar_bad: '#FF8800'
+  status_bar_critical: '#FF2A55'
+  completion_menu_bg: '#111B24'
+  completion_menu_current_bg: '#197278'
+  selection_bg: '#1E3F47'
+  shell_dollar: '#FF4D8D'
+  voice_status_bg: '#15222E'
 spinner:
   waiting_faces:
-  - (◕‿◕)
   - (¬‿¬)
-  - (◔_◔)
+  - (°ロ°)!
+  - (ง •̀_•́)ง
+  - (✨_✨)
   thinking_faces:
-  - (◉_◉)
-  - (◍_◍)
-  - (◉‿◉)
+  - ✋
+  - 👻
+  - 🛸
+  - 🌀
   thinking_verbs:
-  - sensing spiritual aura
-  - detecting alien signals
-  - opening psychic barrier
+  - unleashing turquoise psychokinetic hands
+  - suppressing Okarun's Turbo Granny curse
+  - debating aliens vs ghosts with Okarun
+  - eating crab hotpot with Seiko and Turbo Granny
+  - grabbing a Serpoian aura mid-air
+  - daydreaming about Ken Takakura
   wings:
-  - - ✦
-    - ✦
+  - - ✋
+    - 🌀
+  - - 👻
+    - 🛸
+  - - ✨
+    - ✨
 branding:
-  agent_name: DANDADAN / MOMO
-  welcome: Welcome to Momo Ayase // Dandadan. Ready.
-  goodbye: Session finished.
-  response_label: ' ✦ Momo Ayase '
-  prompt_symbol: ✦
-  help_header: ◈ MOMO COMMANDS
-tool_prefix: ✦
+  agent_name: Momo Ayase (Dandadan)
+  welcome: '[bold #00F5D4]✋ Yo! Ghosts are real, aliens aren''t—now tell Momo what we''re fixing![/]'
+  goodbye: '[#FF4D8D]Peace out! Time to grab ramen with Okarun and Granny Seiko! 🛸[/]'
+  response_label: ' ✋ Momo Ayase '
+  prompt_symbol: '✋ ❯ '
+  help_header: 🛸 DANDADAN // PSYCHOKINETIC & OCCULT TOOLKIT
+tool_prefix: '🌀 '
 banner_hero: |-
-  [bold #FD79A8]           ◈ Momo Ayase // Dandadan ◈[/]
-  [#E84393]                ▄████████▄[/]
-  [#E84393]             ▄██████████████▄[/]
-  [#E84393]           ▄██████████████████▄[/]
-  [#E84393]          ██████████████████████[/]
-  [#E84393]         ████████[#FDEEF4]▀▀████▀▀[/#]████████[/]
-  [#E84393]        [#55EFC4]⚡[/#]█████[#FDEEF4]  ( >)  (< )  [/#]█████[#55EFC4]⚡[/#][/]
-  [#E84393]       [#55EFC4]⚡[/#] █████[#FDEEF4]      ▿      [/#]█████ [#55EFC4]⚡[/#][/]
-  [#E84393]          ██████[#FDEEF4]    ▀▄▄▀   [/#]██████[/]
-  [#E84393]           ██████[#55EFC4]▄▄████▄▄[/#]██████[/]
-  [#E84393]         ▄██████[#FDEEF4]██████████[/#]██████▄[/]
-  [#E84393]        ████████[#FDEEF4]██████████[/#]████████[/]
-  [#E84393]        ████████[#FDEEF4]██████████[/#]████████[/]
-  [#E84393]        ▀███████[#FDEEF4]██████████[/#]███████▀[/]
-  [#E84393]           ▀████[#FDEEF4]██████████[/#]████▀[/]
-  [#E84393]                [#FDEEF4]████  ████[/#][/]
-  [bold #FF7675]          👽 Curse You Aliens! Psychokinesis ⚡[/]
+  [bold #FF4D8D]           ✋ Momo Ayase // Dandadan ✋[/]
+  [bold #00F5D4]⣿⣼⡇⠀⢙⡿⣿⣝⣿⡿⠶⠶⣿⡙⠯⠓⠊⢄⣀⣤⣶⣿⣿⣿⣿⣿⠿⠛⢿⣿⣿⣿⣦⡑⢢⢄⡈⠑⠒⠤⣤⡤⠤⠤⢤⣀⡀⠹⣿⡵[/]
+  [bold #00F5D4]⣿⣿⣿⢾⢯⣻⣿⣿⣿⣿⣶⣶⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⠿⢉⡥⠀⠀⠀⠙⢿⣿⣿⣿⣶⣔⠈⠁⡒⠤⢄⣈⠉⠛⠛⠿⠿⣿⣿⣿[/]
+  [bold #00F5D4]⡿⢻⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⢿⣿⣿⡿⣫⠖⠉⠀⠀⠀⢀⣤⠖⢋⣻⣿⣿⣿⣿⣶⣮⣅⡒⠀⠈⢉⠐⠒⠒⠀⠀⠀[/]
+  [bold #00F5D4]⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢟⠕⠈⣆⣇⣾⡿⣫⠞⠁⢀⠄⢀⡤⠞⣩⣴⣾⣿⣿⣤⣍⣻⢿⣿⣿⣿⣿⣷⣶⣤⣤⣤⣀⣀⣀⣀[/]
+  [bold #00F5D4]⢟⣽⣿⣿⣿⣽⣿⣿⣿⣿⣿⣿⡓⠉⠉⢲⣼⣿⣿⡾⠃⣠⠞⢁⢴⣭⡶⢏⣿⣿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿[/]
+  [bold #00F5D4]⣾⣿⣿⣟⣿⣿⣿⣿⣿⣿⣿⣏⠁⡠⣶⣿⣿⣿⣿⣤⣟⠁⢠⡴⢟⡙⠽⣶⣬⣿⣶⠒⠀⠭⠭⠙⠛⣛⣻⣿⣿⣿⣿⣿⣿⢿⡿⠟⠋⠀[/]
+  [bold #00F5D4]⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿⡏⢻⣾⣿⣿⣿⣣⡾⠋⣨⡿⣯⣄⡀⠉⠳⣌⠙⠻⢿⣿⣿⣶⣶⣶⣾⣛⣛⣛⣛⣉⣉⣁⣉⣁⣠⣤⠤⠶[/]
+  [bold #00F5D4]⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣿⣿⣿⣿⣿⡟⣡⡾⠋⠀⠉⠹⢿⣦⡀⠈⢳⢄⠀⠻⡷⠛⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣾⣿⣿[/]
+  [bold #00F5D4]⣿⣿⣿⣿⣿⣿⠟⡉⠁⠀⠈⣿⣿⣿⣿⣿⣟⣿⠟⠀⠀⠀⠀⠀⠈⠹⣷⡀⠈⣟⠇⠀⠀⣼⢯⣏⣿⡿⠟⠿⠿⠿⠿⠿⠿⠛⣛⣿⣻⣽[/]
+  [bold #00F5D4]⣿⣿⣿⣿⠟⠁⢠⠁⠀⠀⡀⣿⣿⣿⣿⣿⡿⠃⠀⠀⠀⠀⠀⠀⡀⠀⠈⠗⠀⠉⠀⣀⣸⠿⠟⣋⣡⠤⠖⠊⠁⢀⣀⣤⣶⣿⣿⣿⡿⡛[/]
+  [bold #00F5D4]⣿⣿⣿⠃⠀⠄⠁⠀⢀⡰⠱⣿⣿⣿⣿⡟⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣻⢿⣿⣿⣷⣶⣿⣿⣭⣭⣤⣤⣴⣶⣿⣿⣿⣿⢿⡻⠍⠂⠁⣠[/]
+  [bold #00F5D4]⠿⢿⠇⠀⠀⠀⠀⠀⠀⣰⣽⣿⣿⡿⠏⠀⢀⡀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠘⠛⢻⣿⣿⢿⣿⣿⣿⣿⣝⠻⣿⣄⠉⠀⠀⠀⢀⣴⣿[/]
+  [bold #00F5D4]⠀⢀⡀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⡝⠀⠀⡎⠀⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⢫⣾⣿⣿⣿⣿⣿⣷⡀⠙⠷⠀⠀⣠⣿⣿⣿[/]
+  [bold #00F5D4]⡀⢸⣷⣤⣤⡶⣿⣿⣿⣿⣿⣿⢹⣇⠀⡸⠢⠴⡇⠀⠀⠀⠀⠀⠀⢠⠀⠀⠀⠀⠀⣟⠃⠺⡋⡻⣿⣿⡽⠁⣿⣭⠀⢀⣴⣾⣿⣿⣿⣿[/]
+  [bold #00F5D4]⠙⠞⣿⣿⣿⡇⢸⣿⣿⣿⣿⠃⠀⢿⢀⡇⠀⢠⠃⠀⠠⣀⠀⠀⠀⠀⠐⠂⠀⠀⠀⠃⠀⠀⠘⠻⣋⠁⠀⣠⣿⣯⣾⣿⣿⣿⣿⣿⣿⢯[/]
+  [bold #00F5D4]⡀⠀⣿⢹⣿⠁⢸⣿⣿⣿⣯⠀⠀⠘⡟⠀⠀⡈⠀⠀⠀⠀⠉⢢⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢉⣯⣿⣿⣿⣿⣿⣿⣿⣿⡿⣳⣿[/]
+  [bold #00F5D4]⢷⡀⠈⢹⣿⠀⢸⣿⣿⣿⣿⣷⣄⣸⠇⠀⢀⠇⠀⠀⠀⠀⠀⠀⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣽⣿⣿[/]
+  [bold #00F5D4]⠀⢳⡀⠀⢿⠀⠸⣿⣿⣗⡿⠛⠉⡿⠀⠀⢸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⡤⡤⠤⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣾⣿⣿⣿[/]
+  [bold #00F5D4]⠀⠑⣷⡤⡼⡧⠔⣿⣿⠏⠇⠀⣸⠃⠀⠀⣿⢿⣿⣿⢗⣶⣶⣶⣶⣦⠤⠛⠉⠀⠘⣄⡤⠖⢹⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛[/]
+  [bold #00F5D4]⠀⠀⠰⣻⣿⡰⠂⣿⣿⡄⢀⣴⠏⠀⠀⢰⣡⡿⢛⣱⣿⣿⠿⠛⠉⠀⢀⣠⡤⠖⠋⠁⠀⠀⢸⡿⣧⣿⣿⣿⣿⣿⡿⡇⢧⢻⡿⠋⠀⠀[/]
+  [italic #FFE600]    「 Ghosts exist, aliens don't! Psychic Grip! 」[/]

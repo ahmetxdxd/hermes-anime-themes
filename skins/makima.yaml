@@ -1,67 +1,90 @@
 name: makima
-description: Makima anime ASCII art skin for Hermes CLI
+description: Makima (Chainsaw Man) — Public Safety blood crimson & hypnotic golden-ringed eyes theme
 colors:
-  banner_border: '#8B0000'
-  banner_title: '#B22222'
-  banner_accent: '#CD5C5C'
-  banner_dim: '#4A0E17'
-  banner_text: '#F5E6E8'
-  ui_accent: '#B22222'
-  ui_label: '#CD5C5C'
-  ui_ok: '#8FBC8F'
-  ui_error: '#8B0000'
-  ui_warn: '#DAA520'
-  prompt: '#B22222'
-  input_rule: '#330A10'
-  response_border: '#4A0E17'
-  session_label: '#CD5C5C'
-  session_border: '#330A10'
-  status_bar_bg: '#1A0508'
-  voice_status_bg: '#1A0508'
-  selection_bg: '#2D0A0F'
+  background: '#120406'
+  banner_border: '#DC143C'
+  banner_title: '#FF2442'
+  banner_accent: '#FFB703'
+  banner_dim: '#6E0D1C'
+  banner_text: '#F8E8EA'
+  ui_accent: '#DC143C'
+  ui_label: '#FFB703'
+  ui_text: '#F8E8EA'
+  ui_border: '#7A0F1E'
+  ui_ok: '#52B788'
+  ui_warn: '#FFB703'
+  ui_error: '#FF002B'
+  prompt: '#DC143C'
+  input_rule: '#7A0F1E'
+  response_border: '#DC143C'
+  session_label: '#FFB703'
+  session_border: '#6E0D1C'
+  status_bar_bg: '#21070A'
+  status_bar_text: '#F8E8EA'
+  status_bar_strong: '#FFB703'
+  status_bar_dim: '#85182A'
+  status_bar_good: '#52B788'
+  status_bar_warn: '#FFB703'
+  status_bar_bad: '#FB8500'
+  status_bar_critical: '#FF002B'
   completion_menu_bg: '#1A0508'
+  completion_menu_current_bg: '#7A0F1E'
+  selection_bg: '#420912'
+  shell_dollar: '#FFB703'
+  voice_status_bg: '#21070A'
 spinner:
   waiting_faces:
-  - (◕‿◕)
-  - (¬‿¬)
-  - (◔_◔)
-  thinking_faces:
   - (◉_◉)
-  - (◍_◍)
-  - (◉‿◉)
+  - ( ◎_◎ )
+  - ( 微笑 )
+  - (👁️_👁️)
+  thinking_faces:
+  - ⛓️
+  - 👁️
+  - 🩸
+  - 🐕
   thinking_verbs:
-  - observing
-  - listening
-  - controlling
+  - forging a binding Devil Contract
+  - listening through lower lifeforms across Tokyo
+  - 'preparing a quiet finger-gun: Bang'
+  - reviewing Public Safety Special Division 4 reports
+  - tightening the chains of control
+  - asking if you prefer city mice or country mice
   wings:
-  - - ◈
-    - ◈
+  - - ⛓️
+    - ⛓️
+  - - 👁️
+    - 👁️
+  - - 🩸
+    - 🩸
 branding:
-  agent_name: CHAINSAW / MAKIMA
-  welcome: Welcome to Makima // Chainsaw Man. Ready.
-  goodbye: Session finished.
-  response_label: ' ◈ Makima '
-  prompt_symbol: ◈
-  help_header: ◈ MAKIMA COMMANDS
-tool_prefix: ◈
+  agent_name: Makima (Control Devil)
+  welcome: '[bold #DC143C]⛓️ Answer me with only ''Yes'' or ''Woof''. What is your request?[/]'
+  goodbye: '[#FFB703]Good dog. You may rest until I call your name again. ⛓️[/]'
+  response_label: ' ⛓️ Makima '
+  prompt_symbol: '⛓️ ❯ '
+  help_header: 👁️ PUBLIC SAFETY SPECIAL DIVISION 4 // CONTRACTS
+tool_prefix: '⛓️ '
 banner_hero: |-
-  [bold #CD5C5C]       ◈ Makima // Chainsaw Man ◈[/]
-  [#B22222]               ▄██████████▄[/]
-  [#B22222]            ▄████████████████▄[/]
-  [#B22222]          ▄████████████████████▄[/]
-  [#B22222]         ████████████████████████[/]
-  [#B22222]        █████[#F5E6E8]▀▀▀▀██████▀▀▀▀[/#]█████[/]
-  [#B22222]        ████[#F5E6E8]   (◎)    (◎)   [/#]████[/]
-  [#B22222]        ████[#F5E6E8]       ▄  ▄       [/#]████[/]
-  [#B22222]        █████[#F5E6E8]     ▀▄▄▀     [/#]█████[/]
-  [#B22222]         ██████[#F5E6E8]   ██   [/#]██████[/]
-  [#B22222]          ██████[#000000]▄▄██▄▄[/#]██████[/]
-  [#B22222]        ▄██████[#000000]██ ██ ██[/#]██████▄[/]
-  [#B22222]       ████████[#000000]██ █▌ ██[/#]████████[/]
-  [#B22222]      █████████[#000000]██ █▌ ██[/#]█████████[/]
-  [#B22222]      █████████[#000000]██ █▌ ██[/#]█████████[/]
-  [#B22222]      ▀████████[#000000]██ █▌ ██[/#]████████▀[/]
-  [#B22222]         ▀█████[#000000]██ █▌ ██[/#]█████▀[/]
-  [#B22222]               [#000000]  ██   [/#][/]
-  [#B22222]               [#000000]  ██   [/#][/]
-  [bold #CD5C5C]          ⛓ All Humans Are Dogs ⛓[/]
+  [bold #FFB703]        ⛓️ Makima // The Control Devil ⛓️[/]
+  [bold #DC143C]⠀⠀⠀⠀⠀⠀⠀⢠⠏⠀⢀⡜⠁⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡆⠹⡄⠀⠀⠀⠀[/]
+  [bold #DC143C]⠀⠀⠀⠀⠀⠀⢠⠃⠀⢀⡞⠀⠀⠀⠀⢠⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠰⣻⡀⠀⠀⠀[/]
+  [bold #DC143C]⡀⠀⠀⠀⠀⠀⡞⠀⠀⡜⠀⠀⠀⠀⢠⠃⡇⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡆⢻⣣⠀⠀⠀[/]
+  [bold #DC143C]⠙⡄⠀⠀⠀⢠⠃⠀⡼⠀⠀⠀⠀⢀⡎⠀⠇⠀⠀⢈⣇⠀⠀⠀⠀⠀⠀⡐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⡃⢻⣿⡆⠀⠀[/]
+  [bold #DC143C]⠀⠘⡄⠀⠀⢸⠀⢰⠃⢀⠀⠀⢠⡾⠀⠀⢸⠀⠀⢸⡘⣧⠀⠀⠀⠀⠀⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡄⠀⡇⠀⢿⣷⠀⠀[/]
+  [bold #DC143C]⠀⠀⠹⠀⠀⢸⠀⡼⣰⢿⠀⠀⣾⡃⠀⠀⠈⡇⠀⠀⣇⢹⣆⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⣸⡆⠀⠀⠀⠀⠀⠀⢸⠀⠀⣧⠀⢸⣿⠀⠀[/]
+  [bold #DC143C]⠀⠀⠀⠄⠀⡟⠀⣷⣻⢸⠀⢸⡿⠀⠉⠉⠒⢿⣆⢠⢸⡀⢻⣦⠀⢠⠀⣿⣿⣇⠀⠀⠀⣏⣹⠀⠀⠀⠀⠀⠀⡌⠀⡄⢸⠀⡆⣿⠀⠀[/]
+  [bold #DC143C]⠀⠀⠀⢠⠀⡇⠀⣿⣿⣿⡀⢺⡇⠀⣀⣀⣀⡀⠹⣾⣷⣧⠈⣿⣿⣶⣷⣿⣼⣿⣧⣀⠀⢹⣿⡄⠀⠀⠆⠀⠀⡇⢰⣧⢸⠀⢫⢹⠀⠀[/]
+  [bold #DC143C]⠀⠀⠀⢀⠀⡇⠀⢻⠸⣿⣧⣼⡟⠛⣿⣿⣿⣝⣧⠙⢿⣿⣧⡘⣿⡿⣿⣿⡀⢻⣿⣿⣧⠀⣿⣷⡀⠀⠀⠀⢀⣇⣿⣿⢸⡆⢸⡞⠀⠀[/]
+  [bold #DC143C]⠀⠀⠀⡾⠀⡇⠀⠘⣆⢸⠛⢿⡄⠀⣿⣴⣿⣿⢿⡇⠀⠀⠙⠃⠛⠃⠉⣻⣤⣴⣿⣿⣿⣦⡯⢿⣇⢸⡆⠀⢸⡏⠉⠻⣸⡇⣼⠃⠀⠀[/]
+  [bold #DC143C]⠀⠀⢠⠇⠀⡇⠀⠀⠈⣸⠀⠀⠹⢷⣬⡝⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠸⠛⠛⣿⠿⢿⣿⣿⣿⠀⢿⢸⡇⠀⢸⢉⣑⣤⠙⣶⠃⠀⠀⠀[/]
+  [bold #DC143C]⠀⠀⡞⠀⠀⡇⠀⠀⠀⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⠟⠉⢿⣶⢼⢻⡧⡄⢺⠋⠀⡘⠀⡸⠀⠀⠀⠀[/]
+  [bold #DC143C]⠀⡸⠁⠀⠀⡇⠀⠀⢀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠒⠢⠤⠴⠀⠀⠀⢸⢸⡇⡇⠸⠀⢠⠃⡴⠃⠀⠀⠀⠀[/]
+  [bold #DC143C]⡾⠁⠀⠀⠀⡇⠀⠀⢸⣧⠀⠀⠀⠀⠀⠀⠀⠸⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⠀⠁⡇⠀⡾⡾⠁⠀⠀⠀⠀⠀[/]
+  [bold #DC143C]⠙⠲⠤⣀⡀⡇⠰⠀⢸⢸⡄⠀⠀⠀⠀⠀⠀⠀⠹⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠊⢹⡟⠀⠀⡇⣸⢱⠃⠀⠀⠀⠀⠀⠀[/]
+  [bold #DC143C]⠓⠒⠒⠛⠁⡇⢠⠀⢸⠀⢳⡀⠀⠀⠰⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡤⠊⠁⠀⠀⣿⠀⠀⢠⠏⢁⡟⠀⠀⠀⠀⠀⠀⠀[/]
+  [bold #DC143C]⠀⠀⠀⠀⠀⢳⢸⠀⣬⡀⣼⢷⡀⠀⠀⠈⠑⠦⢄⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⣰⠋⠀⠀⠀⠀⠀⡇⠀⠀⢸⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [bold #DC143C]⠀⠀⠀⠀⠀⣸⢸⠀⡏⠀⢸⠀⠻⡀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠀⠀⠀⠀⠀⣰⠃⠀⠀⠀⠀⠀⠀⡇⠀⠀⢸⣄⣀⣀⣀⣀⣀⣀⣀⣀⠀[/]
+  [bold #DC143C]⠀⠀⠀⠀⢠⡿⡌⡇⡇⠀⢸⠀⠀⠱⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡇⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠈⠙⠢⢄⡀⠀⠤⡀⠈⣉[/]
+  [bold #DC143C]⠀⢀⡤⠖⢺⡇⡇⣿⡿⢤⡜⠀⠀⠀⠘⢦⣀⠀⠀⠀⠀⠀⠀⢀⣠⡤⢖⣻⡃⠀⠀⠀⠀⠀⠀⢸⠁⠀⢀⡇⠀⠀⠀⠀⠉⠂⠀⠀⠀⠀[/]
+  [italic #F8E8EA]    「 A corpse is talking. Say 'Yes' or 'Woof'. 」[/]

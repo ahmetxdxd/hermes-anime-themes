@@ -1,0 +1,64 @@
+name: momo
+description: Momo Ayase anime ASCII art skin for Hermes CLI
+colors:
+  banner_border: '#E84393'
+  banner_title: '#FD79A8'
+  banner_accent: '#FF7675'
+  banner_dim: '#A22868'
+  banner_text: '#FDEEF4'
+  ui_accent: '#FD79A8'
+  ui_label: '#FF7675'
+  ui_ok: '#55EFC4'
+  ui_error: '#D63031'
+  ui_warn: '#FDCB6E'
+  prompt: '#E84393'
+  input_rule: '#6C1440'
+  response_border: '#A22868'
+  session_label: '#FF7675'
+  session_border: '#6C1440'
+  status_bar_bg: '#1A0410'
+  voice_status_bg: '#1A0410'
+  selection_bg: '#2C081B'
+  completion_menu_bg: '#1A0410'
+spinner:
+  waiting_faces:
+  - (◕‿◕)
+  - (¬‿¬)
+  - (◔_◔)
+  thinking_faces:
+  - (◉_◉)
+  - (◍_◍)
+  - (◉‿◉)
+  thinking_verbs:
+  - sensing spiritual aura
+  - detecting alien signals
+  - opening psychic barrier
+  wings:
+  - - ✦
+    - ✦
+branding:
+  agent_name: DANDADAN / MOMO
+  welcome: Welcome to Momo Ayase // Dandadan. Ready.
+  goodbye: Session finished.
+  response_label: ' ✦ Momo Ayase '
+  prompt_symbol: ✦
+  help_header: ◈ MOMO COMMANDS
+tool_prefix: ✦
+banner_hero: |-
+  [bold #FD79A8]           ◈ Momo Ayase // Dandadan ◈[/]
+  [#E84393]                ▄████████▄[/]
+  [#E84393]             ▄██████████████▄[/]
+  [#E84393]           ▄██████████████████▄[/]
+  [#E84393]          ██████████████████████[/]
+  [#E84393]         ████████[#FDEEF4]▀▀████▀▀[/#]████████[/]
+  [#E84393]        [#55EFC4]⚡[/#]█████[#FDEEF4]  ( >)  (< )  [/#]█████[#55EFC4]⚡[/#][/]
+  [#E84393]       [#55EFC4]⚡[/#] █████[#FDEEF4]      ▿      [/#]█████ [#55EFC4]⚡[/#][/]
+  [#E84393]          ██████[#FDEEF4]    ▀▄▄▀   [/#]██████[/]
+  [#E84393]           ██████[#55EFC4]▄▄████▄▄[/#]██████[/]
+  [#E84393]         ▄██████[#FDEEF4]██████████[/#]██████▄[/]
+  [#E84393]        ████████[#FDEEF4]██████████[/#]████████[/]
+  [#E84393]        ████████[#FDEEF4]██████████[/#]████████[/]
+  [#E84393]        ▀███████[#FDEEF4]██████████[/#]███████▀[/]
+  [#E84393]           ▀████[#FDEEF4]██████████[/#]████▀[/]
+  [#E84393]                [#FDEEF4]████  ████[/#][/]
+  [bold #FF7675]          👽 Curse You Aliens! Psychokinesis ⚡[/]

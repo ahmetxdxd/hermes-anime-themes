@@ -1,0 +1,72 @@
+name: 2b
+description: YoRHa No.2 Type B anime ASCII art skin for Hermes CLI
+colors:
+  banner_border: '#FFFFFF'
+  banner_title: '#E0E0E0'
+  banner_accent: '#C0C0C0'
+  banner_dim: '#666666'
+  banner_text: '#D8D8D8'
+  user: '#FFFFFF'
+  assistant: '#E8E8E8'
+  system: '#888888'
+  tool: '#A0A0A0'
+  error: '#FF5555'
+  success: '#55FF55'
+  warning: '#FFFF55'
+  info: '#55FFFF'
+  prompt: '#FFFFFF'
+  shell_dollar: '#FF5555'
+  voice_status_bg: '#1A1A1A'
+  status_running: '#55FFFF'
+  status_success: '#55FF55'
+  status_error: '#FF5555'
+spinner:
+  waiting_faces:
+  - ◈
+  - ◇
+  - ◆
+  - ❖
+  thinking_faces:
+  - ⚔
+  - 🗡
+  - ✦
+  quotes:
+  - everything that lives is designed to end
+  - for the glory of mankind
+  wings:
+  - - ◇
+    - ◇
+branding:
+  agent_name: YoRHa No.2 Type B
+  welcome: Welcome to YoRHa No.2 Type B // NieR:Automata. Ready.
+  goodbye: Session finished.
+  response_label: ' ◈ YoRHa 2B '
+  prompt_symbol: '◈ '
+tool_prefix: '⚔ '
+banner_hero: |-
+  [bold #E0E0E0]       ◈ YoRHa No.2 Type B ◈[/]
+  [bold #FFFFFF]           ▄██████████████▄[/]
+  [bold #FFFFFF]        ▄████████████████████▄[/]
+  [bold #FFFFFF]      ▄████████████████████████▄[/]
+  [bold #FFFFFF]     ████████████████████████████[/]
+  [bold #FFFFFF]    ██████████████████████████████[/]
+  [bold #FFFFFF]   ████████████████████████████████[/]
+  [bold #FFFFFF]   ████████████████████████████████[/]
+  [bold #FFFFFF]  ██████████████████████████████████[/]
+  [bold #FFFFFF]  ██████████████████████████████████[/]
+  [bold #FFFFFF]  █████████[#000000]██████████████[/#]█████████[/]
+  [bold #FFFFFF]  ████████[#000000]████████████████[/#]████████[/]
+  [bold #FFFFFF]  ███████[#000000]██████████████████[/#]███████[/]
+  [bold #FFFFFF]   ███████[#000000]████████████████[/#]███████[/]
+  [bold #FFFFFF]   ████████[#000000]██████████████[/#]████████[/]
+  [bold #FFFFFF]    ██████████████████████████████[/]
+  [bold #FFFFFF]     ████████████████████████████[/]
+  [bold #FFFFFF]      ▀████████████████████████▀[/]
+  [bold #FFFFFF]        ▀████████████████████▀[/]
+  [bold #FFFFFF]           ▀██████████████▀[/]
+  [bold #FFFFFF]                 ████[/]
+  [bold #FFFFFF]               ▄██████▄[/]
+  [bold #FFFFFF]            ██████████████[/]
+  [bold #FFFFFF]          ██████████████████[/]
+  [bold #FFFFFF]        ██████████████████████[/]
+  [bold #666666]       For The Glory of Mankind[/]

@@ -1,0 +1,71 @@
+name: lucy
+description: Lucy anime ASCII art skin for Hermes CLI
+colors:
+  banner_border: '#00B4D8'
+  banner_title: '#48CAE4'
+  banner_accent: '#90E0EF'
+  banner_dim: '#0077B6'
+  banner_text: '#CAF0F8'
+  ui_accent: '#48CAE4'
+  ui_label: '#90E0EF'
+  ui_ok: '#80FFDB'
+  ui_error: '#FF5A5F'
+  ui_warn: '#FFD166'
+  prompt: '#00B4D8'
+  input_rule: '#023E8A'
+  response_border: '#0077B6'
+  session_label: '#90E0EF'
+  session_border: '#023E8A'
+  status_bar_bg: '#03045E'
+  voice_status_bg: '#03045E'
+  selection_bg: '#023E8A'
+  completion_menu_bg: '#03045E'
+spinner:
+  waiting_faces:
+  - (◕‿◕)
+  - (¬‿¬)
+  - (◔_◔)
+  thinking_faces:
+  - (◉_◉)
+  - (◍_◍)
+  - (◉‿◉)
+  thinking_verbs:
+  - hacking subnet
+  - running breach protocol
+  - dreaming of the moon
+  wings:
+  - - ▰
+    - ▰
+branding:
+  agent_name: NIGHT CITY / LUCY
+  welcome: Welcome to Lucy Kushinada // Cyberpunk Edgerunners. Ready.
+  goodbye: Session finished.
+  response_label: ' ▰ Lucy '
+  prompt_symbol: ▰
+  help_header: ◈ LUCY COMMANDS
+tool_prefix: ▰
+banner_hero: |-
+  [bold #48CAE4]       ◈ Lucy Kushinada // Cyberpunk ◈[/]
+  [#00D4D8]        ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[/]
+  [#00D4D8]    ▄██████████████████████████▄[/]
+  [#00D4D8]  ▄██████████████████████████████▄[/]
+  [#00D4D8] ▄██████████████████████████████████▄[/]
+  [#00D4D8]██████████████████████████████████████[/]
+  [#00D4D8]██████████[#FF2A85]████████████████[/#]██████████[/]
+  [#00D4D8]█████████[#FF2A85]████████████████████[/#]█████████[/]
+  [#00D4D8]████████[#FF2A85]██████████████████████[/#]████████[/]
+  [#00D4D8]███████[#FF2A85]████████████████████████[/#]███████[/]
+  [#00D4D8] ███████[#FF2A85]██████████████████████[/#]███████[/]
+  [#00D4D8]  ████████[#FF2A85]██████████████████[/#]████████[/]
+  [#00D4D8]   ██████████[#FF2A85]████████████[/#]██████████[/]
+  [#00D4D8]    ██████████████████████████████[/]
+  [#00D4D8]     ▀██████████████████████████▀[/]
+  [#00D4D8]       ▀██████████████████████▀[/]
+  [#00D4D8]           ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[/]
+  [#00D4D8]             ████████████[/]
+  [#00D4D8]           ▄██████████████▄[/]
+  [#00D4D8]         ▄██████████████████▄[/]
+  [#00D4D8]        ██████████████████████[/]
+  [#00D4D8]       ████████████████████████[/]
+  [#00D4D8]      ██████████████████████████[/]
+  [bold #FF2A85]         🌙 Fly Me To The Moon[/]

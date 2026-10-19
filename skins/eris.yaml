@@ -1,0 +1,64 @@
+name: eris
+description: Eris anime ASCII art skin for Hermes CLI
+colors:
+  banner_border: '#C0392B'
+  banner_title: '#E74C3C'
+  banner_accent: '#F39C12'
+  banner_dim: '#962D22'
+  banner_text: '#FDEDEC'
+  ui_accent: '#E74C3C'
+  ui_label: '#F39C12'
+  ui_ok: '#2ECC71'
+  ui_error: '#C0392B'
+  ui_warn: '#F1C40F'
+  prompt: '#E74C3C'
+  input_rule: '#78281F'
+  response_border: '#962D22'
+  session_label: '#F39C12'
+  session_border: '#78281F'
+  status_bar_bg: '#1C0604'
+  voice_status_bg: '#1C0604'
+  selection_bg: '#2C0B08'
+  completion_menu_bg: '#1C0604'
+spinner:
+  waiting_faces:
+  - (◕‿◕)
+  - (¬‿¬)
+  - (◔_◔)
+  thinking_faces:
+  - (◉_◉)
+  - (◍_◍)
+  - (◉‿◉)
+  thinking_verbs:
+  - swinging sword
+  - channeling battle aura
+  - Sword God stance
+  wings:
+  - - ⚔
+    - ⚔
+branding:
+  agent_name: MUSHOKU / ERIS
+  welcome: Welcome to Eris Boreas Greyrat // Mushoku Tensei. Ready.
+  goodbye: Session finished.
+  response_label: ' ⚔ Eris Greyrat '
+  prompt_symbol: ⚔
+  help_header: ◈ ERIS COMMANDS
+tool_prefix: ⚔
+banner_hero: |-
+  [bold #E74C3C]        ◈ Eris Boreas Greyrat // Mushoku Tensei ◈[/]
+  [#C0392B]                ▄▄████████▄▄[/]
+  [#C0392B]             ▄████████████████▄[/]
+  [#C0392B]           ▄████████████████████▄[/]
+  [#C0392B]         ▄████████████████████████▄[/]
+  [#C0392B]        ████████[#FDEDEC]▀▀▀████▀▀▀[/#]████████[/]
+  [#C0392B]       [#F39C12]🗡[/#]█████[#FDEDEC]   ( •̀)  (•́ )  [/#]█████[#F39C12]🗡[/#][/]
+  [#C0392B]        ██████[#FDEDEC]      ▿      [/#]██████[/]
+  [#C0392B]         ██████[#FDEDEC]    ▀▄▄▀    [/#]██████[/]
+  [#C0392B]          ██████[#F39C12]▄▄████▄▄[/#]██████[/]
+  [#C0392B]        ▄██████[#78281F]██████████[/#]██████▄[/]
+  [#C0392B]       ████████[#78281F]██████████[/#]████████[/]
+  [#C0392B]       ████████[#78281F]██████████[/#]████████[/]
+  [#C0392B]       ▀███████[#78281F]██████████[/#]███████▀[/]
+  [#C0392B]          ▀████[#78281F]██████████[/#]████▀[/]
+  [#C0392B]               [#78281F]████  ████[/#][/]
+  [bold #F39C12]          🗡 Sword King of the Holy Land 🗡[/]

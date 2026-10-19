@@ -1,0 +1,72 @@
+name: kurumi
+description: Kurumi Tokisaki anime ASCII art skin for Hermes CLI
+colors:
+  banner_border: '#8B0000'
+  banner_title: '#FF2A2A'
+  banner_accent: '#FF4D4D'
+  banner_dim: '#B22222'
+  banner_text: '#FFCCCC'
+  ui_accent: '#FF2A2A'
+  ui_label: '#FF4D4D'
+  ui_ok: '#90EE90'
+  ui_error: '#FF0000'
+  ui_warn: '#FFA500'
+  prompt: '#FF2A2A'
+  input_rule: '#550000'
+  response_border: '#8B0000'
+  session_label: '#FF4D4D'
+  session_border: '#550000'
+  status_bar_bg: '#1A0000'
+  voice_status_bg: '#1A0000'
+  selection_bg: '#330000'
+  completion_menu_bg: '#1A0000'
+spinner:
+  waiting_faces:
+  - (◕‿◕)
+  - (¬‿¬)
+  - (◔_◔)
+  thinking_faces:
+  - (◉_◉)
+  - (◍_◍)
+  - (◉‿◉)
+  thinking_verbs:
+  - rewinding time
+  - consuming shadows
+  - counting seconds
+  wings:
+  - - ⧖
+    - ⧖
+branding:
+  agent_name: Kurumi Agent
+  welcome: Welcome to Kurumi Tokisaki // Date A Live. Ready.
+  goodbye: Session finished.
+  response_label: ' ◈ Kurumi '
+  prompt_symbol: ⧖
+  help_header: ◈ KURUMI COMMANDS
+tool_prefix: ⧖
+banner_hero: |-
+  [bold #FF4D4D]      ◈ Kurumi Tokisaki // Date A Live ◈[/]
+  [#FF2A2A]              ▄▄▄▄██████▄▄▄▄[/]
+  [#FF2A2A]          ▄████████████████████▄[/]
+  [#FF2A2A]       ▄██████████████████████████▄[/]
+  [#FF2A2A]     ▄██████████████████████████████▄[/]
+  [#FF2A2A]    ██████████████████████████████████[/]
+  [#FF2A2A]   ████████████████████████████████████[/]
+  [#FF2A2A]  ██████████████[#FFD700]████[/#]██████████████████[/]
+  [#FF2A2A]  ████████████[#FFD700]████████[/#]████████████████[/]
+  [#FF2A2A]  ████████████[#FFD700]████████[/#]████████████████[/]
+  [#FF2A2A]  ██████████████[#FFD700]████[/#]██████████████████[/]
+  [#FF2A2A]   ████████████████████████████████████[/]
+  [#FF2A2A]    ██████████████████████████████████[/]
+  [#FF2A2A]     ▀██████████████████████████████▀[/]
+  [#FF2A2A]       ▀██████████████████████████▀[/]
+  [#FF2A2A]          ▀████████████████████▀[/]
+  [#FF2A2A]              ▀▀▀▀██████▀▀▀▀[/]
+  [#FF2A2A]                   ████[/]
+  [#FF2A2A]                ▄▄██████▄▄[/]
+  [#FF2A2A]             ▄██████████████▄[/]
+  [#FF2A2A]           ▄██████████████████▄[/]
+  [#FF2A2A]          ██████████████████████[/]
+  [#FF2A2A]         ████████████████████████[/]
+  [#FF2A2A]        ██████████████████████████[/]
+  [bold #FFD700]        ⏰ Zafkiel: Emperor of Time[/]

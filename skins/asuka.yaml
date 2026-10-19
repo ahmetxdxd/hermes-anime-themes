@@ -1,0 +1,67 @@
+name: asuka
+description: Asuka Langley anime ASCII art skin for Hermes CLI
+colors:
+  banner_border: '#E03A3E'
+  banner_title: '#FF5A36'
+  banner_accent: '#FFAA4C'
+  banner_dim: '#B02626'
+  banner_text: '#FFF0ED'
+  ui_accent: '#FF5A36'
+  ui_label: '#FFAA4C'
+  ui_ok: '#7EDB88'
+  ui_error: '#FF2A2A'
+  ui_warn: '#FFD043'
+  prompt: '#E03A3E'
+  input_rule: '#8A1C1C'
+  response_border: '#B02626'
+  session_label: '#FFAA4C'
+  session_border: '#8A1C1C'
+  status_bar_bg: '#1A0808'
+  voice_status_bg: '#1A0808'
+  selection_bg: '#2E0C0C'
+  completion_menu_bg: '#1A0808'
+spinner:
+  waiting_faces:
+  - (◕‿◕)
+  - (¬‿¬)
+  - (◔_◔)
+  thinking_faces:
+  - (◉_◉)
+  - (◍_◍)
+  - (◉‿◉)
+  thinking_verbs:
+  - charging progressive knife
+  - calibrating synch rate
+  - checking NERV status
+  wings:
+  - - 🟥
+    - 🟥
+branding:
+  agent_name: NERV / ASUKA
+  welcome: Welcome to Asuka Langley // Evangelion. Ready.
+  goodbye: Session finished.
+  response_label: ' 🟥 Asuka Langley '
+  prompt_symbol: ┊
+  help_header: ◈ ASUKA COMMANDS
+tool_prefix: ┊
+banner_hero: |-
+  [bold #FF5A36]       ◈ Asuka Langley // Evangelion ◈[/]
+  [#E03A3E]             ▄▄██████████▄▄[/]
+  [#E03A3E]          ▄██████████████████▄[/]
+  [#E03A3E]        ▄██████████████████████▄[/]
+  [#E03A3E]       ████[#00FF00]▄█[/#]████████████[#00FF00]█▄[/#]████[/]
+  [#E03A3E]      ████[#00FF00]███[/#]████████████[#00FF00]███[/#]████[/]
+  [#E03A3E]      ████████[#FFF0ED]▀▀▀██▀▀▀[/#]████████[/]
+  [#E03A3E]      ██████[#FFF0ED]   (●)  (●)  [/#]██████[/]
+  [#E03A3E]      ██████[#FFF0ED]      ▿      [/#]██████[/]
+  [#E03A3E]       ██████[#FFF0ED]    ▀▄▄▀   [/#]██████[/]
+  [#E03A3E]        ██████[#00FF00]▄▄████▄▄[/#]██████[/]
+  [#E03A3E]       ▄█████[#FF2A2A]██████████[/#]█████▄[/]
+  [#E03A3E]      ███████[#FF2A2A]██████████[/#]███████[/]
+  [#E03A3E]     ████████[#FF2A2A]████[#000000]02[/#]████[/#]████████[/]
+  [#E03A3E]     ████████[#FF2A2A]██████████[/#]████████[/]
+  [#E03A3E]     ▀███████[#FF2A2A]██████████[/#]███████▀[/]
+  [#E03A3E]        ▀████[#FF2A2A]██████████[/#]████▀[/]
+  [#E03A3E]             [#FF2A2A]████  ████[/#][/]
+  [#E03A3E]             [#FF2A2A]████  ████[/#][/]
+  [bold #FFAA4C]       ⚡ Anta Baka?! Evangelion 02 ⚡[/]

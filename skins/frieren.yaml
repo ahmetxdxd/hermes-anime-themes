@@ -1,0 +1,65 @@
+name: frieren
+description: Frieren anime ASCII art skin for Hermes CLI
+colors:
+  banner_border: '#4A90E2'
+  banner_title: '#6BA4E8'
+  banner_accent: '#A4C8F0'
+  banner_dim: '#2A5288'
+  banner_text: '#E8F1FC'
+  ui_accent: '#6BA4E8'
+  ui_label: '#A4C8F0'
+  ui_ok: '#7CD8A4'
+  ui_error: '#E25555'
+  ui_warn: '#F0C060'
+  prompt: '#4A90E2'
+  input_rule: '#1C3860'
+  response_border: '#2A5288'
+  session_label: '#A4C8F0'
+  session_border: '#1C3860'
+  status_bar_bg: '#0A1424'
+  voice_status_bg: '#0A1424'
+  selection_bg: '#14243C'
+  completion_menu_bg: '#0A1424'
+spinner:
+  waiting_faces:
+  - (◕‿◕)
+  - (¬‿¬)
+  - (◔_◔)
+  thinking_faces:
+  - (◉_◉)
+  - (◍_◍)
+  - (◉‿◉)
+  thinking_verbs:
+  - casting spell
+  - collecting grimoires
+  - remembering the journey
+  wings:
+  - - ✧
+    - ✧
+branding:
+  agent_name: BEYOND JOURNEY / FRIEREN
+  welcome: Welcome to Frieren // Sousou no Frieren. Ready.
+  goodbye: Session finished.
+  response_label: ' ✧ Frieren '
+  prompt_symbol: ✧
+  help_header: ◈ FRIEREN COMMANDS
+tool_prefix: ✧
+banner_hero: |-
+  [bold #6BA4E8]         ◈ Frieren // Sousou no Frieren ◈[/]
+  [#4A90E2]                 ▄██████▄[/]
+  [#4A90E2]              ▄████████████▄[/]
+  [#4A90E2]            ▄████████████████▄[/]
+  [#4A90E2]       ▄▄  ████████████████████  ▄▄[/]
+  [#4A90E2]      ▀█████████[#E8F1FC]▀▀▀██▀▀▀[/#]█████████▀[/]
+  [#4A90E2]        ▀█████[#E8F1FC]   ( •)  (• )  [/#]█████▀[/]
+  [#4A90E2]          ████[#E8F1FC]       ▿       [/#]████[/]
+  [#4A90E2]           ████[#E8F1FC]    ▀▄▄▀    [/#]████[/]
+  [#4A90E2]         ▄██████[#F0C060]▄▄████▄▄[/#]██████▄[/]
+  [#4A90E2]        ███████[#FFFFFF]██████████[/#]███████[#F0C060]█[/#][/]
+  [#4A90E2]       ████████[#FFFFFF]██████████[/#]████████[#F0C060]█[/#][/]
+  [#4A90E2]       ████████[#FFFFFF]██████████[/#]████████[#F0C060]█[/#][/]
+  [#4A90E2]        ███████[#FFFFFF]██████████[/#]███████[#F0C060]█[/#][/]
+  [#4A90E2]         ▀█████[#FFFFFF]██████████[/#]█████▀ [#F0C060]█[/#][/]
+  [#4A90E2]               [#FFFFFF]████  ████[/#]     [#F0C060]█[/#][/]
+  [#4A90E2]               [#FFFFFF]████  ████[/#]     [#F0C060]█[/#][/]
+  [bold #A4C8F0]         ✧ 1000+ Year Journey for Magic ✧[/]

@@ -1,0 +1,67 @@
+name: bocchi
+description: Hitori Gotoh (Bocchi) anime ASCII art skin for Hermes CLI
+colors:
+  banner_border: '#FF82C8'
+  banner_title: '#FFA6D9'
+  banner_accent: '#FFA6D9'
+  banner_dim: '#B8508A'
+  banner_text: '#FFF0F5'
+  user: '#FFA6D9'
+  assistant: '#FFF0F5'
+  system: '#B8508A'
+  tool: '#FF69B4'
+  error: '#FF5555'
+  success: '#55FF55'
+  warning: '#FFFF55'
+  info: '#55FFFF'
+  prompt: '#FF82C8'
+  shell_dollar: '#FF5555'
+  voice_status_bg: '#2A1020'
+  status_running: '#55FFFF'
+  status_success: '#55FF55'
+  status_error: '#FF5555'
+spinner:
+  waiting_faces:
+  - (..)
+  - (>_<)
+  - (;;)
+  - (x_x)
+  thinking_faces:
+  - 🎸
+  - ♪
+  - ♫
+  quotes:
+  - i want to become a guitar hero...
+  - staying home is the best
+  wings:
+  - - ♪
+    - ♫
+branding:
+  agent_name: Kessoku Band / Bocchi
+  welcome: Welcome to Hitori Gotoh // Bocchi the Rock. Ready.
+  goodbye: Session finished.
+  response_label: ' 🎸 Hitori Gotoh '
+  prompt_symbol: '🎸 '
+tool_prefix: '♪ '
+banner_hero: |-
+  [bold #FFA6D9]     🎸 Hitori Gotoh // Bocchi the Rock 🎸[/]
+  [bold #FF82C8]⣿⣿⣿⣿⣿⣿⠿⠿⣿⣿⣿⣿⣿⡿⠻⢿⣿⣿⣿⣿⠿⢛⣛⣛⣭⣭⣙⣛⡛⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF82C8]⣿⡿⠛⡩⠶⠾⠛⠿⠷⢦⡙⠿⣡⣾⣍⠊⠻⢋⣥⢲⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣮⣙⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF82C8]⣇⣠⣶⣾⣿⣿⣿⣿⣿⣿⠆⡀⠿⣿⠟⣡⣾⣛⣧⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF82C8]⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⢀⣶⡷⢈⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF82C8]⣿⣿⣿⣿⣿⣿⣿⣿⣿⡘⠸⡟⢡⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⡘⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF82C8]⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡶⣠⣿⡏⠈⠛⠻⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠹⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF82C8]⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢱⣿⣿⣿⣷⣶⣤⣀⠀⠀⠉⢿⣿⣿⣿⣿⣿⡿⠛⠋⠍⠉⠋⠉⠀⣀⣽⣿⣿⣇⢻⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF82C8]⣿⣿⣿⣿⣿⣿⣿⣿⡿⢡⣿⣿⡟⠉⠉⠉⠉⠉⠁⠀⠀⣸⣿⣿⣿⣿⣿⠉⠀⠀⠠⠴⣶⣾⣿⣿⣿⣿⣿⣿⡌⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF82C8]⣿⣿⣿⣿⣿⣿⣿⠟⢀⣿⡟⢽⠏⢲⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣤⣤⣀⣀⡀⠉⠉⢙⣿⣿⣿⣷⢹⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF82C8]⣿⣿⣿⣿⣿⣿⡟⣠⣿⣿⣄⠬⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⢹⡏⢻⣿⣿⣆⢻⣿⣿⣿⣿⣿[/]
+  [bold #FF82C8]⣿⣿⣿⣿⣿⢏⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⡀⠁⢠⣿⣿⣿⡆⢿⣿⣿⣿⣿[/]
+  [bold #FF82C8]⣿⣿⣿⠟⣡⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡌⢿⣿⣿⣿[/]
+  [bold #FF82C8]⣿⡟⣡⣾⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡻⣿⣿[/]
+  [bold #FF82C8]⡿⢰⣿⣿⣿⣿⣿⣿⣿⡿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣌⢻[/]
+  [bold #FF82C8]⣿⡸⣿⣿⣿⣿⣿⣿⣿⠃⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢿⣿⣿⣿⣿⣿⠆[/]
+  [bold #FF82C8]⣿⣷⣬⡛⠿⠿⠿⠿⠛⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢻⣿⣿⣿⣿⣿⣿⣿⣿⡌⠿⢿⡿⠿⢋⣴[/]
+  [bold #FF82C8]⣿⣿⣿⣿⣿⣶⣾⣿⣿⢸⣿⣿⣿⣿⣿⣿⠟⣩⣵⣶⣮⡹⣿⣿⣿⣿⣿⣿⣿⣿⡟⢀⣮⣙⢿⣿⣿⣿⣿⣿⣿⡇⣰⣶⣶⣾⣿⣿[/]
+  [bold #FF82C8]⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣍⡛⠿⠟⣋⣴⣾⣿⣿⣿⣿⣷⡘⣿⣿⣿⣿⣿⣿⣿⢱⣿⣿⣿⣷⣌⡛⠿⠿⠿⢋⣴⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF82C8]⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣜⠿⣿⣿⣿⠟⣡⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [bold #FF82C8]⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]

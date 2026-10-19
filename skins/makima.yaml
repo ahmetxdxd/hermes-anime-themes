@@ -1,0 +1,67 @@
+name: makima
+description: Makima anime ASCII art skin for Hermes CLI
+colors:
+  banner_border: '#8B0000'
+  banner_title: '#B22222'
+  banner_accent: '#CD5C5C'
+  banner_dim: '#4A0E17'
+  banner_text: '#F5E6E8'
+  ui_accent: '#B22222'
+  ui_label: '#CD5C5C'
+  ui_ok: '#8FBC8F'
+  ui_error: '#8B0000'
+  ui_warn: '#DAA520'
+  prompt: '#B22222'
+  input_rule: '#330A10'
+  response_border: '#4A0E17'
+  session_label: '#CD5C5C'
+  session_border: '#330A10'
+  status_bar_bg: '#1A0508'
+  voice_status_bg: '#1A0508'
+  selection_bg: '#2D0A0F'
+  completion_menu_bg: '#1A0508'
+spinner:
+  waiting_faces:
+  - (◕‿◕)
+  - (¬‿¬)
+  - (◔_◔)
+  thinking_faces:
+  - (◉_◉)
+  - (◍_◍)
+  - (◉‿◉)
+  thinking_verbs:
+  - observing
+  - listening
+  - controlling
+  wings:
+  - - ◈
+    - ◈
+branding:
+  agent_name: CHAINSAW / MAKIMA
+  welcome: Welcome to Makima // Chainsaw Man. Ready.
+  goodbye: Session finished.
+  response_label: ' ◈ Makima '
+  prompt_symbol: ◈
+  help_header: ◈ MAKIMA COMMANDS
+tool_prefix: ◈
+banner_hero: |-
+  [bold #CD5C5C]       ◈ Makima // Chainsaw Man ◈[/]
+  [#B22222]               ▄██████████▄[/]
+  [#B22222]            ▄████████████████▄[/]
+  [#B22222]          ▄████████████████████▄[/]
+  [#B22222]         ████████████████████████[/]
+  [#B22222]        █████[#F5E6E8]▀▀▀▀██████▀▀▀▀[/#]█████[/]
+  [#B22222]        ████[#F5E6E8]   (◎)    (◎)   [/#]████[/]
+  [#B22222]        ████[#F5E6E8]       ▄  ▄       [/#]████[/]
+  [#B22222]        █████[#F5E6E8]     ▀▄▄▀     [/#]█████[/]
+  [#B22222]         ██████[#F5E6E8]   ██   [/#]██████[/]
+  [#B22222]          ██████[#000000]▄▄██▄▄[/#]██████[/]
+  [#B22222]        ▄██████[#000000]██ ██ ██[/#]██████▄[/]
+  [#B22222]       ████████[#000000]██ █▌ ██[/#]████████[/]
+  [#B22222]      █████████[#000000]██ █▌ ██[/#]█████████[/]
+  [#B22222]      █████████[#000000]██ █▌ ██[/#]█████████[/]
+  [#B22222]      ▀████████[#000000]██ █▌ ██[/#]████████▀[/]
+  [#B22222]         ▀█████[#000000]██ █▌ ██[/#]█████▀[/]
+  [#B22222]               [#000000]  ██   [/#][/]
+  [#B22222]               [#000000]  ██   [/#][/]
+  [bold #CD5C5C]          ⛓ All Humans Are Dogs ⛓[/]

@@ -6,7 +6,7 @@
 
 ## English
 
-A curated collection of custom anime-themed CLI skins for **[Hermes Agent](https://github.com/NousResearch/hermes-agent)**. Features custom ANSI/Rich color palettes, themed spinners, prompt branding, status messages, and terminal ASCII art.
+A curated collection of custom anime-themed CLI skins for **[Hermes Agent](https://github.com/NousResearch/hermes-agent)**. Features custom ANSI/Rich color palettes, themed spinners, prompt brandin[...] 
 
 ### 👧 Included Themes (9 Skins)
 
@@ -69,23 +69,70 @@ display:
 
 ### 🖼️ Preview Samples
 
-```text
-       ◈ Hitori Gotoh // Bocchi the Rock ◈
-⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-       🎸 Guitar, Loneliness and Blue Planet 🎸
+Below are small, terminal-friendly previews of several skins. These are ASCII/text approximations — colors & animations are shown conceptually.
 
-       ◈ YoRHa No.2 Type B ◈
-           ▄█████████████▄
-        ▄████████████████████▄
-       For The Glory of Mankind
+```text
+----- bocchi -----
+◈ Hitori Gotoh // Bocchi the Rock! ◈
+╭─╴ 𝘱𝘳𝘰𝘮𝘱𝘵: ♫  (soft-pink)  ─╴╮
+│  >  hello  
+│  🎸 Playing: "Blue Planet"  
+╰───────────────────────────────╯
+
+----- 2b -----
+◈ YoRHa No.2 Type B ◈
+[ SYSTEM ] ▸ > status: OPERATIONAL
+> For The Glory of Mankind
+(black/white prompt, sharp cursor)
+
+----- asuka -----
+◈ Asuka Langley ◈
+>>> ERROR: pilot ego overload
+> sync: EVA-02 (unit-red)
+(bold red accents, energetic prompt)
+
+----- frieren -----
+◈ Frieren ◈
+~ * decades of silence * ~
+> spell> illuminate (calm blue prompt)
+(starry glyphs at the left)
+
+----- makima -----
+◈ Makima ◈
+[ CONTRACT ] • ACCEPTED
+> makima: what do you desire?
+(crimson prompt, hypnotic separator)
+
+----- lucy -----
+◈ Lucy Kushinada ◈
+⟪ neon ▸ node: connect ⟫
+> run --mode: nightcity
+(neon cyan & magenta accents)
+
+----- kurumi -----
+◈ Kurumi Tokisaki ◈
+⏳ tick... tock... ⏳
+> timewarp --set 23:59
+(gold gear glyphs, crimson prompt)
+
+----- eris -----
+◈ Eris Boreas Greyrat ◈
+/ blade: drawn \
+> battle-ready: true
+(fiery auburn accents)
+
+----- momo -----
+◈ Momo Ayase ◈
+❖ psychic: calibrating ❖
+> summon --target: unknown
+(hot pink + mint highlights)
 ```
 
 ---
 
 ## Türkçe
 
-**[Hermes Agent](https://github.com/NousResearch/hermes-agent)** için hazırlanmış anime temalı CLI skin koleksiyonu. Her tema; karaktere özel renk paleti, animasyonlu yükleme kanatları, komut istemcisi simgeleri ve terminal ASCII banner çizimleri barındırır.
+**[Hermes Agent](https://github.com/NousResearch/hermes-agent)** için hazırlanmış anime temalı CLI skin koleksiyonu. Her tema; karaktere özel renk paleti, animasyonlu yükleme kanatları, ko[...]
 
 ### 👧 Paket İçeriği (9 Tema)
 
